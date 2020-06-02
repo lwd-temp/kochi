@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="zh-CN">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>小说：未完成</title>
+  <meta name="description"
+    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
+  <meta name="keywords" content="总结">
+  <meta name="author" content="dasasdhba">
+  <meta name="copyright" content="dasasdhba">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" href="jinja.png">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net/">
+  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="crossorigin">
+  <link rel="preconnect" href="https://busuanzi.ibruce.info/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Clickteam Fusion 系列教程 第一章">
+  <meta name="twitter:description"
+    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
+  <meta name="twitter:image" content="http://yanxuan.nosdn.127.net/563687168bb8b0a6d01957db2a0824c1.png">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Clickteam Fusion 系列教程 第一章">
+  <meta property="og:url" content="http://dasasdhba.github.io/course-CTFC1/">
+  <meta property="og:site_name" content="dasasdhba">
+  <meta property="og:description"
+    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
+  <meta property="og:image" content="http://yanxuan.nosdn.127.net/563687168bb8b0a6d01957db2a0824c1.png">
+  <meta property="article:published_time" content="2020-04-23T13:33:06.000Z">
+  <meta property="article:modified_time" content="2020-04-29T15:09:51.383Z">
+  <script
+    src="dat1/js.js"></script>
+  <link rel="stylesheet"
+    href="dat1/index.css">
+  <link rel="stylesheet"
+    href="dat1/font-awesome.css">
+  <link rel="stylesheet"
+    href="dat1/jquery.css">
+  <link rel="canonical" href="http://dasasdhba.github.io/course-CTFC1/">
+  <link rel="next" title="【资源】Clickteam Fusion 2.5+ 部分自制 &amp; 优化特效" href="http://dasasdhba.github.io/res-CTFeffect/">
+  <link rel="stylesheet"
+    href="dat1/css.css">
+  <script>var GLOBAL_CONFIG = {
+      root: '/',
+      algolia: undefined,
+      localSearch: { "path": "search.xml", "languages": { "hits_empty": "找不到您查询的内容:${query}" } },
+      translate: { "defaultEncoding": 2, "translateDelay": 0, "cookieDomain": "https://dasasdhba.github.io/", "msgToTraditionalChinese": "繁", "msgToSimplifiedChinese": "簡" },
+      copy: {
+        success: '复制成功',
+        error: '复制错误',
+        noSupport: '浏览器不支持'
+      },
+      bookmark: {
+        message_prev: '按',
+        message_next: '键将本页加入书签'
+      },
+      runtime_unit: '天',
+      runtime: true,
+      copyright: undefined,
+      ClickShowText: undefined,
+      medium_zoom: false,
+      fancybox: true,
+      Snackbar: undefined,
+      baiduPush: false,
+      highlightCopy: true,
+      highlightLang: true,
+      highlightShrink: 'false',
+      isFontAwesomeV5: false,
+      isPhotoFigcaption: false
+
+    }</script>
+  <script>var GLOBAL_CONFIG_SITE = {
+      isPost: true,
+      isHome: false,
+      isSidebar: true
+    }</script><noscript>
+    <style>
+      #page-header {
+        opacity: 1
+      }
+
+      .justified-gallery img {
+        opacity: 1
+      }
+    </style>
+  </noscript>
+  <meta name="generator" content="Hexo 4.2.0">
+  <link rel="alternate" href="https://dasasdhba.github.io/atom.xml" title="dasasdhba" type="application/atom+xml">
+  <style type="text/css">
+    .v[data-class=v] {
+      font-size: 16px;
+      text-align: left
+    }
+
+    .v[data-class=v] * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      line-height: 1.75
+    }
+
+    .v[data-class=v] .status-bar,
+    .v[data-class=v] .veditor,
+    .v[data-class=v] .vinput,
+    .v[data-class=v] p,
+    .v[data-class=v] pre code {
+      color: #555
+    }
+
+    .v[data-class=v] .vsys,
+    .v[data-class=v] .vtime {
+      color: #b3b3b3
+    }
+
+    .v[data-class=v] .text-right {
+      text-align: right
+    }
+
+    .v[data-class=v] .text-center {
+      text-align: center
+    }
+
+    .v[data-class=v] img {
+      max-width: 100%;
+      border: none
+    }
+
+    .v[data-class=v] hr {
+      margin: .825em 0;
+      border-color: #f6f6f6;
+      border-style: dashed
+    }
+
+    .v[data-class=v].hide-avatar .vimg {
+      display: none
+    }
+
+    .v[data-class=v] a {
+      position: relative;
+      cursor: pointer;
+      color: #1abc9c;
+      text-decoration: none;
+      display: inline-block
+    }
+
+    .v[data-class=v] a:hover {
+      color: #d7191a
+    }
+
+    .v[data-class=v] code,
+    .v[data-class=v] pre {
+      background-color: #f8f8f8;
+      padding: .2em .4em;
+      border-radius: 3px;
+      font-size: 85%;
+      margin: 0
+    }
+
+    .v[data-class=v] pre {
+      padding: 10px;
+      overflow: auto;
+      line-height: 1.45
+    }
+
+    .v[data-class=v] pre code {
+      padding: 0;
+      background: transparent;
+      white-space: pre-wrap;
+      word-break: keep-all
+    }
+
+    .v[data-class=v] blockquote {
+      color: #666;
+      margin: .5em 0;
+      padding: 0 0 0 1em;
+      border-left: 8px solid hsla(0, 0%, 93%, .5)
+    }
+
+    .v[data-class=v] .vinput {
+      border: none;
+      resize: none;
+      outline: none;
+      padding: 10px 5px;
+      max-width: 100%;
+      font-size: .775em
+    }
+
+    .v[data-class=v] input[type=checkbox],
+    .v[data-class=v] input[type=radio] {
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -2px
+    }
+
+    .v[data-class=v] .vicon {
+      cursor: pointer;
+      display: inline-block;
+      overflow: hidden;
+      fill: #555;
+      vertical-align: middle
+    }
+
+    .v[data-class=v] .vicon+.vicon {
+      margin-left: 10px
+    }
+
+    .v[data-class=v] .vicon.actived {
+      fill: #66b1ff
+    }
+
+    .v[data-class=v] .vrow {
+      font-size: 0;
+      padding: 10px 0
+    }
+
+    .v[data-class=v] .vrow .vcol {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-20 {
+      width: 20%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-30 {
+      width: 30%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-40 {
+      width: 40%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-50 {
+      width: 50%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-60 {
+      width: 60%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-70 {
+      width: 70%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-80 {
+      width: 80%
+    }
+
+    .v[data-class=v] .vrow .vcol.vctrl {
+      font-size: 12px
+    }
+
+    .v[data-class=v] .emoji,
+    .v[data-class=v] .vemoji {
+      max-width: 25px;
+      vertical-align: middle;
+      margin: 0 1px;
+      display: inline-block
+    }
+
+    .v[data-class=v] .vwrap {
+      border: 1px solid #f0f0f0;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      position: relative;
+      padding: 10px
+    }
+
+    .v[data-class=v] .vwrap input {
+      background: transparent
+    }
+
+    .v[data-class=v] .vwrap .vedit {
+      position: relative;
+      padding-top: 10px
+    }
+
+    .v[data-class=v] .vwrap .cancel-reply-btn {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer
+    }
+
+    .v[data-class=v] .vwrap .vemojis {
+      display: none;
+      font-size: 18px;
+      max-height: 145px;
+      overflow: auto;
+      padding-bottom: 10px;
+      -webkit-box-shadow: 0 0 1px #f0f0f0;
+      box-shadow: 0 0 1px #f0f0f0
+    }
+
+    .v[data-class=v] .vwrap .vemojis i {
+      font-style: normal;
+      padding-top: 7px;
+      width: 36px;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle
+    }
+
+    .v[data-class=v] .vwrap .vpreview {
+      padding: 7px;
+      -webkit-box-shadow: 0 0 1px #f0f0f0;
+      box-shadow: 0 0 1px #f0f0f0
+    }
+
+    .v[data-class=v] .vwrap .vheader .vinput {
+      width: 33.33%;
+      border-bottom: 1px dashed #dedede
+    }
+
+    .v[data-class=v] .vwrap .vheader.item2 .vinput {
+      width: 50%
+    }
+
+    .v[data-class=v] .vwrap .vheader.item1 .vinput {
+      width: 100%
+    }
+
+    .v[data-class=v] .vwrap .vheader .vinput:focus {
+      border-bottom-color: #eb5055
+    }
+
+    @media screen and (max-width:520px) {
+
+      .v[data-class=v] .vwrap .vheader.item2 .vinput,
+      .v[data-class=v] .vwrap .vheader .vinput {
+        width: 100%
+      }
+    }
+
+    .v[data-class=v] .vpower {
+      color: #999;
+      font-size: .75em;
+      padding: .5em 0
+    }
+
+    .v[data-class=v] .vpower a {
+      font-size: .75em
+    }
+
+    .v[data-class=v] .vcount {
+      padding: 5px;
+      font-weight: 600;
+      font-size: 1.25em
+    }
+
+    .v[data-class=v] ol,
+    .v[data-class=v] ul {
+      padding: 0;
+      margin-left: 1.25em
+    }
+
+    .v[data-class=v] .txt-center {
+      text-align: center
+    }
+
+    .v[data-class=v] .txt-right {
+      text-align: right
+    }
+
+    .v[data-class=v] .pd5 {
+      padding: 5px
+    }
+
+    .v[data-class=v] .pd10 {
+      padding: 10px
+    }
+
+    .v[data-class=v] .veditor {
+      width: 100%;
+      min-height: 8.75em;
+      font-size: .875em;
+      background: transparent;
+      resize: vertical;
+      -webkit-transition: all .25s ease;
+      transition: all .25s ease
+    }
+
+    .v[data-class=v] .vbtn {
+      -webkit-transition-duration: .4s;
+      transition-duration: .4s;
+      text-align: center;
+      color: #555;
+      border: 1px solid #ededed;
+      border-radius: .3em;
+      display: inline-block;
+      background: transparent;
+      margin-bottom: 0;
+      font-weight: 400;
+      vertical-align: middle;
+      -ms-touch-action: manipulation;
+      touch-action: manipulation;
+      cursor: pointer;
+      white-space: nowrap;
+      padding: .5em 1.25em;
+      font-size: .875em;
+      line-height: 1.42857143;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      outline: none
+    }
+
+    .v[data-class=v] .vbtn+.vbtn {
+      margin-left: 1.25em
+    }
+
+    .v[data-class=v] .vbtn:active,
+    .v[data-class=v] .vbtn:hover {
+      color: #3090e4;
+      border-color: #3090e4
+    }
+
+    .v[data-class=v] .vbtn:disabled {
+      border-color: #e1e1e1;
+      color: #e1e1e1;
+      background-color: #fdfafa;
+      cursor: not-allowed
+    }
+
+    .v[data-class=v] .vempty {
+      padding: 1.25em;
+      text-align: center;
+      color: #555;
+      overflow: auto
+    }
+
+    .v[data-class=v] .vsys {
+      display: inline-block;
+      padding: .2em .5em;
+      font-size: .75em;
+      border-radius: .2em;
+      margin-right: .3em
+    }
+
+    @media screen and (max-width:520px) {
+      .v[data-class=v] .vsys {
+        display: none
+      }
+    }
+
+    .v[data-class=v] .vcards {
+      width: 100%
+    }
+
+    .v[data-class=v] .vcards .vcard {
+      padding-top: 1.25em;
+      position: relative;
+      display: block
+    }
+
+    .v[data-class=v] .vcards .vcard:after {
+      content: "";
+      clear: both;
+      display: block
+    }
+
+    .v[data-class=v] .vcards .vcard .vimg {
+      width: 3.125em;
+      height: 3.125em;
+      float: left;
+      border-radius: 50%;
+      margin-right: .7525em;
+      border: 1px solid #f5f5f5;
+      padding: .125em
+    }
+
+    @media screen and (max-width:720px) {
+      .v[data-class=v] .vcards .vcard .vimg {
+        width: 2.5em;
+        height: 2.5em
+      }
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead {
+      line-height: 1.5;
+      margin-top: 0
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead .vnick {
+      position: relative;
+      font-size: .875em;
+      font-weight: 500;
+      margin-right: .875em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead .vnick:hover {
+      color: #d7191a
+    }
+
+    .v[data-class=v] .vcards .vcard .vh {
+      overflow: hidden;
+      padding-bottom: .5em;
+      border-bottom: 1px dashed #f5f5f5
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vtime {
+      font-size: .75em;
+      margin-right: .875em
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vmeta {
+      line-height: 1;
+      position: relative
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+      font-size: .8125em;
+      color: #ef2f11;
+      cursor: pointer;
+      float: right
+    }
+
+    .v[data-class=v] .vcards .vcard:last-child .vh {
+      border-bottom: none
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent {
+      word-wrap: break-word;
+      word-break: break-all;
+      font-size: .875em;
+      line-height: 2;
+      position: relative;
+      margin-bottom: .75em;
+      padding-top: .625em
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent.expand {
+      cursor: pointer;
+      max-height: 8em;
+      overflow: hidden
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent.expand:before {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 3.15em;
+      background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, .9)));
+      background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .9));
+      z-index: 999
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent.expand:after {
+      display: block;
+      content: attr(data-expand);
+      text-align: center;
+      color: #828586;
+      position: absolute;
+      width: 100%;
+      height: 3.15em;
+      line-height: 3.15em;
+      left: 0;
+      bottom: 0;
+      z-index: 999;
+      background: hsla(0, 0%, 100%, .9)
+    }
+
+    .v[data-class=v] .vcards .vcard .vquote {
+      padding-left: 1em;
+      border-left: 1px dashed hsla(0, 0%, 93%, .5)
+    }
+
+    .v[data-class=v] .vcards .vcard .vquote .vimg {
+      width: 2.225em;
+      height: 2.225em
+    }
+
+    .v[data-class=v] .vpage .vmore {
+      margin: 1em 0
+    }
+
+    .v[data-class=v] .clear {
+      content: "";
+      display: block;
+      clear: both
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+      }
+
+      to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+      }
+
+      to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+      }
+    }
+
+    @-webkit-keyframes pulse {
+      50% {
+        background: #dcdcdc
+      }
+    }
+
+    @keyframes pulse {
+      50% {
+        background: #dcdcdc
+      }
+    }
+
+    .v[data-class=v] .vspinner {
+      width: 22px;
+      height: 22px;
+      display: inline-block;
+      border: 6px double #a0a0a0;
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: spin 1s infinite linear;
+      animation: spin 1s infinite linear;
+      position: relative;
+      vertical-align: middle;
+      margin: 0 5px
+    }
+
+    .dark .v[data-class=v] .status-bar,
+    .dark .v[data-class=v] .veditor,
+    .dark .v[data-class=v] .vinput,
+    .dark .v[data-class=v] p,
+    .dark .v[data-class=v] pre code,
+    .night .v[data-class=v] .status-bar,
+    .night .v[data-class=v] .veditor,
+    .night .v[data-class=v] .vinput,
+    .night .v[data-class=v] p,
+    .night .v[data-class=v] pre code,
+    .theme__dark .v[data-class=v] .status-bar,
+    .theme__dark .v[data-class=v] .veditor,
+    .theme__dark .v[data-class=v] .vinput,
+    .theme__dark .v[data-class=v] p,
+    .theme__dark .v[data-class=v] pre code,
+    [data-theme=dark] .v[data-class=v] .status-bar,
+    [data-theme=dark] .v[data-class=v] .veditor,
+    [data-theme=dark] .v[data-class=v] .vinput,
+    [data-theme=dark] .v[data-class=v] p,
+    [data-theme=dark] .v[data-class=v] pre code {
+      color: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vsys,
+    .dark .v[data-class=v] .vtime,
+    .night .v[data-class=v] .vsys,
+    .night .v[data-class=v] .vtime,
+    .theme__dark .v[data-class=v] .vsys,
+    .theme__dark .v[data-class=v] .vtime,
+    [data-theme=dark] .v[data-class=v] .vsys,
+    [data-theme=dark] .v[data-class=v] .vtime {
+      color: #929298
+    }
+
+    .dark .v[data-class=v] code,
+    .dark .v[data-class=v] pre,
+    .dark .v[data-class=v] pre code,
+    .night .v[data-class=v] code,
+    .night .v[data-class=v] pre,
+    .night .v[data-class=v] pre code,
+    .theme__dark .v[data-class=v] code,
+    .theme__dark .v[data-class=v] pre,
+    .theme__dark .v[data-class=v] pre code,
+    [data-theme=dark] .v[data-class=v] code,
+    [data-theme=dark] .v[data-class=v] pre,
+    [data-theme=dark] .v[data-class=v] pre code {
+      color: #929298;
+      background-color: #151414
+    }
+
+    .dark .v[data-class=v] .vwrap,
+    .night .v[data-class=v] .vwrap,
+    .theme__dark .v[data-class=v] .vwrap,
+    [data-theme=dark] .v[data-class=v] .vwrap {
+      border-color: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vicon,
+    .night .v[data-class=v] .vicon,
+    .theme__dark .v[data-class=v] .vicon,
+    [data-theme=dark] .v[data-class=v] .vicon {
+      fill: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vicon.actived,
+    .night .v[data-class=v] .vicon.actived,
+    .theme__dark .v[data-class=v] .vicon.actived,
+    [data-theme=dark] .v[data-class=v] .vicon.actived {
+      fill: #66b1ff
+    }
+
+    .dark .v[data-class=v] .vbtn,
+    .night .v[data-class=v] .vbtn,
+    .theme__dark .v[data-class=v] .vbtn,
+    [data-theme=dark] .v[data-class=v] .vbtn {
+      color: #b2b2b5;
+      border-color: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vbtn:hover,
+    .night .v[data-class=v] .vbtn:hover,
+    .theme__dark .v[data-class=v] .vbtn:hover,
+    [data-theme=dark] .v[data-class=v] .vbtn:hover {
+      color: #66b1ff;
+      border-color: #66b1ff
+    }
+
+    .dark .v[data-class=v] a:hover,
+    .night .v[data-class=v] a:hover,
+    .theme__dark .v[data-class=v] a:hover,
+    [data-theme=dark] .v[data-class=v] a:hover {
+      color: #d7191a
+    }
+
+    .dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,
+    .night .v[data-class=v] .vcards .vcard .vcontent.expand:before,
+    .theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,
+    [data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:before {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .7)));
+      background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7))
+    }
+
+    .dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,
+    .night .v[data-class=v] .vcards .vcard .vcontent.expand:after,
+    .theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,
+    [data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:after {
+      background: rgba(0, 0, 0, .7)
+    }
+
+    @media (prefers-color-scheme:dark) {
+
+      .v[data-class=v] .status-bar,
+      .v[data-class=v] .veditor,
+      .v[data-class=v] .vinput,
+      .v[data-class=v] p,
+      .v[data-class=v] pre code {
+        color: #b2b2b5
+      }
+
+      .v[data-class=v] .vsys,
+      .v[data-class=v] .vtime {
+        color: #929298
+      }
+
+      .v[data-class=v] code,
+      .v[data-class=v] pre,
+      .v[data-class=v] pre code {
+        color: #929298;
+        background-color: #151414
+      }
+
+      .v[data-class=v] .vwrap {
+        border-color: #b2b2b5
+      }
+
+      .v[data-class=v] .vicon {
+        fill: #b2b2b5
+      }
+
+      .v[data-class=v] .vicon.actived {
+        fill: #66b1ff
+      }
+
+      .v[data-class=v] .vbtn {
+        color: #b2b2b5;
+        border-color: #b2b2b5
+      }
+
+      .v[data-class=v] .vbtn:hover {
+        color: #66b1ff;
+        border-color: #66b1ff
+      }
+
+      .v[data-class=v] a:hover {
+        color: #d7191a
+      }
+
+      .v[data-class=v] .vcards .vcard .vcontent.expand:before {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .7)));
+        background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7))
+      }
+
+      .v[data-class=v] .vcards .vcard .vcontent.expand:after {
+        background: rgba(0, 0, 0, .7)
+      }
+    }
+  </style>
+  <link rel="prefetch" href="https://dasasdhba.github.io/categories/conclusion/">
+</head>
+
+<body>
+  <div id="mobile-sidebar">
+    <div id="menu_mask"></div>
+    <div id="mobile-sidebar-menus">
+      <div class="mobile_author_icon"><img class="avatar-img"
+          src="dat1/e08b8eb9c7a67229bd7f98f55cce0743.png"
+          onerror="onerror=null;src='undefined'" alt="avatar"></div>
+      <div class="mobile_post_data">
+        <div class="mobile_data_item is-center">
+          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/archives/">
+              <div class="headline">文章</div>
+              <div class="length_num">10</div>
+            </a></div>
+        </div>
+        <div class="mobile_data_item is-center">
+          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/tags/">
+              <div class="headline">标签</div>
+              <div class="length_num">4</div>
+            </a></div>
+        </div>
+        <div class="mobile_data_item is-center">
+          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/categories/">
+              <div class="headline">分类</div>
+              <div class="length_num">4</div>
+            </a></div>
+        </div>
+      </div>
+      <hr>
+      <div class="menus_items">
+        <div class="menus_item"><a class="site-page" href="https://dasasdhba.github.io/"><i
+              class="fa-fw fa fa-home"></i><span> 主页</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://dasasdhba.github.io/archives/"><i
+              class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://dasasdhba.github.io/tags/"><i
+              class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://dasasdhba.github.io/categories/"><i
+              class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://dasasdhba.github.io/link/"><i
+              class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://dasasdhba.github.io/about/"><i
+              class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+      </div>
+    </div>
+  </div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true"
+    style="transform: rotateZ(180deg); color: rgb(153, 169, 191); opacity: 1;"> </i>
+  <div id="sidebar" class="tocOpenPc" style="left: 0px;">
+    <div class="sidebar-toc">
+      <div class="sidebar-toc__title">目录</div>
+      <div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span
+          class="progress-num">19</span><span class="progress-percentage">%</span>
+        <div class="sidebar-toc__progress-bar" style="width: 19%;"> </div>
+      </div>
+      <div class="sidebar-toc__content">
+        <ol class="toc">
+          <li class="toc-item toc-level-1"><a class="toc-link" href="#标题"><span class="toc-text">标题</span></a>
+            <ol class="toc-child" style="">
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第1话"><span
+                    class="toc-text">第1话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第2话"><span
+                    class="toc-text">第2话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第3话"><span
+                    class="toc-text">第3话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第4话"><span
+                    class="toc-text">第4话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第5话"><span
+                    class="toc-text">第5话</span></a></li>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div id="body-wrap" style="padding-left: 300px;">
+    <div id="web_bg" data-type="photo"></div>
+    <div class="post-bg" id="nav"
+      style="background-image: url(http://i0.hdslb.com/bfs/album/ec5d888f599b41927bc64f073a97c12be9d6de9c.png)">
+      <div id="page-header" style="opacity: 1; animation: 1s ease 0s 1 normal none running headerNoOpacity;"
+        class="fixed"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name"
+            href="https://lonely-programmer.github.io/kochi/">東風神社</a></span><span class="pull_right menus"
+          style="padding-right: 300px;">
+          <div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span>
+                搜索</span></a></div>
+          <div class="menus_items">
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link/"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+          </div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw"
+                aria-hidden="true"></i></a></span>
+        </span></div>
+      <div id="post-info">
+        <div id="post-title">
+          <div class="posttitle">标题</div>
+        </div>
+        <div id="post-meta">
+          <div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created"
+                title="发表于 2020-04-23 21:33:06"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于
+                2020-04-23</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated"
+                title="更新于 2020-04-29 23:09:51"><i class="fa fa-history" aria-hidden="true"></i> 更新于
+                2020-04-29</span></time><span class="post-meta__categories"><span
+                class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a
+                class="post-meta__categories"
+                href="https://lonely-programmer.github.io/categories/conclusion/">总结</a></span></div>
+          <div class="meta-secondline"> </div>
+
+        </div>
+      </div>
+    </div>
+    <main class="layout_post" id="content-inner">
+      <article id="post">
+        <div id="article-container">
+          <h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1>
+          <h2 id="第1话"><a href="#第1话" class="headerlink" title="第1话"></a>第1话  独自坐在路边的女孩</h2>
+          <p>“哎呀，我把包忘在结界旁边了……”羽衣把目光转向七凪，“要不七凪帮我去拿一下呗……”</p>
+          <p>“自己的东西自己去拿嘛。”七凪很干脆地回答道。</p>
+          <p>“七凪——”羽衣拉长了声音，一脸可怜的样子看着七凪，“你看，我今天和芽吹测定了很多关于结界的参数，现在感觉连走路的力气都没有了，你就体谅一下呗？”</p>
+          <p>“那好吧。”七凪看着自己的好朋友确实很疲惫的样子，也就不在拒绝了。</p>
+          <p>“七凪真是太好了！路上要注意安全哦。”</p>
+          <p>“知道了。你赶紧好好休息吧。”</p>
+          <br/>
+          <p>“啊，在这里。”</p>
+          <p>七凪正想要返回，忽然看到小树林旁的长凳上坐着一个年龄看起来比自己略小的女孩子，她略微低着头，显得有些孤零零的样子，似乎有什么心事。</p>
+          <br/>
+          <p>“嘿！”七凪走到那个女孩面前。只见她穿着一件连帽衫，把帽子戴着，低头看着自己前方的地面，好像有什么心事一样。</p>
+          <p>发现有人来搭话，女孩抬起头看了七凪一眼，然后又低下头去。尽管已经是夜晚，光线显得有点昏暗，但还是能够看清她的样子。白皙的皮肤，清秀的长相，本可以让人很自然地联想到一个识文解意的爱书人的形象。但此时的她却显得有些狼狈，帽子遮住了眼睛以上的部分，脸上也毫无表情，眼神里也少了同龄人应有的光芒。</p>
+          <p>“现在已经是秋天了，晚上一个人坐在这里很容易着凉。你是有什么心事吗？”</p>
+          <p>女孩摇了摇头。</p>
+          <p>“那是身体不舒服？”</p>
+          <p>女孩又摇了摇头。</p>
+          <p>“一直坐在这里也不是办法啊。你是不是迷路了，要不然我送你回家吧？”</p>
+          <p>“不用你管。”女孩终于说话了，以一种低沉的声音说着，“我不想回家。反正我的心已经死了，现在什么都不想做，只想一直坐在这里。”</p>
+          <p>“别这么说嘛。有什么事的话就跟我说吧。”从对方的只言片语中，七凪感觉她是和家里人闹矛盾了，“不想回家的话，今晚住在我的寝室里也没关系的。”</p>
+          <p>“不要。你不用再劝我了，我已经决定今晚一直待在这里了。当然如果你愿意在这里等着的话我也没有意见。”</p>
+          <p>“不行啊，我还是得在这里。一个人在这里过夜实在是太危险了。”</p>
+          <br/>
+          <p>（30分钟后）</p>
+          <p>“我说你可真是个无情的家伙，居然真的让我在这里一直等着。”七凪等着等着逐渐失去了耐心。</p>
+          <p>“明明是你自愿等在这里的，怎么能怪我不好。”女孩不带感情地说道，“话说回来，就算你在这里一直等到天亮，我也不会改变主意的。”</p>
+          <p>“可恶。既然如此……”七凪已经没有耐心再等下去了。她强行把女孩抱了起来。</p>
+          <p>“你这是在干什么？”女孩被七凪突如其来的举动显得很吃惊，但是并没有反抗。</p>
+          <p>“当然是带你回去。”七凪一边说着一边吃力地回到宿舍。</p>
+          <br/>
+          <p>（西28宿舍楼内）</p>
+          <p>“我回来啦。”</p>
+          <p>“你也太慢了，已经过了大半个小时了，我还以为你被结界吸进去了。”羽衣一边吃着零食一边吐槽道。</p>
+          <p>“还不是因为这个不省心的家伙！”七凪抱着女孩走进房间，然后把对方放到椅子上。</p>
+          <p>“你是……”羽衣一边打量着这个低着头，脸被遮住一部分的女孩，一边问道。</p>
+          <p>女孩的脸上还是看不出任何表情，而且不知是出于警惕还是别的什么原因，她沉默了片刻。过了好一会儿，她才逐渐说起关于自己的事情……</p>
+          <br/>
+
+          <h2 id="第2话"><a href="#第2话" class="headerlink" title="第2话"></a>第2话  那个与众不同的心灵</h2>
+          <p>	“我叫藤原美奈子（ふじわら　の　みなこ），今年18岁，刚刚来到古津大学，家就住在这附近。”女孩的脸上仍然没有表情。</p>
+          <p>	“我叫初明羽衣，平时负责维护一个结界，不过说来话长，以后再慢慢介绍吧。话说你的名字不仅好好听，而且好神奇啊，姓和名之间竟然有一个‘の’？”</p>
+          <p>	“这是从古代遗留下来的。在很久以前，只有贵族才有姓氏，比如像藤原、物部、苏我这些。按照当时的习惯，姓和名之间要加一个‘の’，于是就变成了现在这样。至于名字嘛，美奈（みな）就是水（注：水面-みなも），子（こ）是心（こころ）的第一个音节，连起来就是水心，正好是一句谚语‘鱼有心的话，水也有心’（注：魚心あれば水心，对方对自己友善的话，也同样对对方报以好意）。”</p>
+          <p>	“这个寓意真是太好了。那我以后就叫你‘水心’（みなっこ）吧。”</p>
+          <p>	“为什么呢？”</p>
+          <p>	“当然是增进感情啦。叫绰号的话可以变得更亲密。”</p>
+          <p>	“感情什么的我这辈子都没法理解吧。不过你如果想这么叫的话请便。”</p>
+          <p>虽然听不懂对方这句话是什么意思，但羽衣还是和对方一直聊着，希望能搞清楚事情的原委。在这期间七凪先去休息了。</p>
+          <br/>
+          <p>	“水心酱为什么那么晚了还一个人在外面呢？着凉了可不好。”</p>
+          <p>	“我不想见到父母。”水心的声音又变得低沉起来。</p>
+          <p>	“为什么呀？他们给你起了这么好听的名字，应该对你很好才是……”</p>
+          <p>	“不！”水心打断了羽衣，而且眼神里也透出一丝寒气，“都怪他们不好。他们两个人都有特殊能力，但是能力的效果是相反的，在这样的情况下，对于下一代会产生非常严重的副作用。他们明知道这一点，却还是生下了我。现在的我，不仅没有办法使用特殊能力，而且连感情的功能都丧失了大部分。我就是他们的牺牲品！”</p>
+          <p>	“啊，是这样……”羽衣的内心有一点吃惊，“你的父母应该也不希望看到这样的结果吧，毕竟每个人都不是完美的，做出的选择也有可能不够周全……”</p>
+          <p>	“不用再为我的父母求情了。”水心打断了羽衣，“你永远都不会知道我这些年都经历了什么。”</p>
+          <p>	“那么这段时间就暂时和我们住在一起吧，我们来帮你一起找回丢失的感情怎么样？”</p>
+          <p>	“住在一起倒是可以。不过找回感情什么的，就不用白费力气了，我从小就开始各种尝试，从来就没有成功过，现在我也放弃了希望。”</p>
+          <p>	“不尝试怎么知道结果呢，也许是你当时没有找到方法？我们可以帮你想办法。”</p>
+          <p>	“如果你们想这么做的话我不阻止你们，不过我是不抱什么希望了。”</p>
+          <p>	“别这么没信心嘛。那么从明天开始，我们就一起帮水心酱找回丢失的感情！”羽衣用高昂的语气说着，而一边的水心却还是意气消沉的样子。</p>
+          <br/>
+          <p>（西8宿舍楼内）</p>
+          <p>	“这里就是我住的寝室了。虽然是双人间，但其实只有我一个人住。不过呢，另一张床我偶尔也会整理一下，以备不时之需。所以今天晚上水心酱就在这里休息吧。”</p>
+          <p>	“明白了。”过了没多久，水心就睡着了。</p>
+          <p>	“看来水心酱很累了吧。”羽衣轻轻地说着，“但是要怎么才能帮她找回失去的感情呢？这个问题还真是不太好办啊。不过，明天先试试看吧……”</p>
+          <br/>
+
+          <h2 id="第3话"><a href="#第3话" class="headerlink" title="第3话"></a>第3话  寻找那份丢失的感情</h2>
+          <p>（西8宿舍楼内）</p>
+          <p>	“早啊，羽衣。那个女孩怎么样啦？”一大清早，七凪就跑到羽衣的寝室里询问。</p>
+          <p>	“嘘！”羽衣指了指还在睡梦中的水心，然后压低声音回答道，“好好的呢。”</p>
+          <p>	“到底要不要把她送回家去？”七凪也压低了声音。</p>
+          <p>	“暂时不用啦。我已经通过保卫处联系到了她的父母，他们说既然水心还在生气，那么回去只会让关系变得更加不好，所以这段时间就暂时拜托我们照顾了。”</p>
+          <p>	“最了解一个人的还是父母了，那我们就这样去做吧。”</p>
+          <p>	在对话中，羽衣把昨天晚上了解到的情况告诉了七凪。</p>
+          <p>	“对了，我昨天答应了水心酱要帮她找回失去的感情，但这个任务果然不太简单，你有什么想法吗？”</p>
+          <p>	“这么说的话，我倒是有一个朋友，她对记忆编辑技术有一定的了解，我可以问一下。”</p>
+          <p>	“那真是太好了。过一会儿我就找几个我们社团的人看看能不能用特殊能力做点什么，不过这种情况我也是第一次遇到，如果不行的话下午就拜托你啦。”</p>
+          <br/>
+          <p>	过了一会儿，水心起床了。</p>
+          <p>	“水心酱，我们一会儿就和你一起去寻找感情！”看到水心以后，羽衣一改刚才顾虑的语气，很有干劲地说道。</p>
+          <p>	“怎么，你们还在想这件事吗？”</p>
+          <p>	“那是当然，既然说好了那就要认真对待嘛。”</p>
+          <p>	“那行吧。那么一会儿是什么流程呢？”</p>
+          <p>	“我所在的结界维护社团里很多人都有特殊能力，我想其中一些能力可以帮你，所以就跟她们越好今天见面，到时候你只要配合她们就好啦。”</p>
+          <p>	“明白了。”水心一边面无表情地回答道，一边内心想着羽衣为什么要费这么大的力气做无用的事情。</p>
+          <br/>
+          <p>（东区一个人烟稀少的角落）</p>
+          <p>	“还是不行吗？”</p>
+          <p>	“恐怕是这样的，羽衣前辈。我们尝试了很久，其他人都一切正常，唯独这个女孩非常特别，感觉自己的能力完全无法用上。对不起了……”</p>
+          <p>	“这样啊。没有关系，今天还是辛苦大家了。”有那么一瞬间，羽衣的眼神中有那么一丝失落，但马上就消失了。</p>
+          <p>和社团的成员告别之后，两人朝返回宿舍的方向走着。</p>
+          <p>	“我昨天想的方法好像不行，真是可惜啊。不过下午七凪还会再尝试一次，希望能够成功啊。”尽管刚才的失败让羽衣有些沮丧，但她还是尽力不表现出来，并安慰着水心。相反，水心作为当事人似乎反而不怎么在乎。</p>
+          <p>	“我早就说了不会有用的，你还不肯相信。”水心还是面无表情的样子。</p>
+          <p>	“虽然你说的有一定道理，但我觉得，如果还没有尝试就放弃了，不是更可惜吗？人正是有了希望和梦想才能活下去啊。”</p>
+          <p>	“或许是吧……”水心不太明白羽衣的话是什么意思，但还是附和着。</p>
+          <br/>
+          <p>（西8宿舍楼）</p>
+          <p>	“哟，是七凪啊，这么早就来啦。”羽衣打开寝室门，只见七凪今天特别精神，头上还戴着朋友送的石楠花饰品。一般这个饰品七凪只会在心情比较好的时候戴上。</p>
+          <p>	“是啊，我已经等不及了。水心酱的事情现在可是头等大事。”七凪一边说着一边走进寝室。</p>
+          <p>	“怎么连你都这么叫我了……”面对七凪的热情，水心丝毫没有动容的样子，脸上写满了冷漠两个字。</p>
+          <p>	“增进感情嘛。”七凪照搬了羽衣的原话。</p>
+          <p>	“行吧。”</p>
+          <p>	说着，两人收拾了一下准备朝目标进发。秋季的午后，温暖的阳光，满地金黄色的银杏落叶，这样的景色似乎充满了活力与希望。但此刻的水心却只是想着早点应付完这一切，然后回到寝室休息。</p>
+          <br/>
+
+          <h2 id="第4话"><a href="#第4话" class="headerlink" title="第4话"></a>第4话  新的感情寻找计划</h2>
+          <p>（东3宿舍楼）</p>
+          <p>	瞳把水心的记忆复制到电脑里，然后在虚拟机里调试着程序，但是过了好一会儿也没有写完。</p>
+          <p>	“奇怪了，这个变量为什么会返回空值呢？这样一来后续的操作都无法进行了。可是前面的代码应该没有错才对……”瞳似乎遇到了困难，自言自语地说道。</p>
+          <p>	“怎么，遇到困难了？让我来看一看吧。”美香好像察觉到瞳遇到了困难，从隔壁寝室来到这里。</p>
+          <br/>
+          <p>	“她的情况有点特殊。”美香对七凪说道，“她记忆的编码方式好像和一般人不一样，现在的解码器还无法解码。有可能世界上只有她一个人是这种编码方式，所以对我们来说她的记忆就像加密过了一样，无法进行修改。”</p>
+          <p>	“是这样啊。”七凪听了以后不免有些沮丧，但还是故意抬高了语调，不让这种情绪流露出来。</p>
+          <p>	“真是抱歉，让你们特意来了一趟，还是没有解决问题。”瞳有点歉疚地说道。</p>
+          <p>	“没关系啦，我们过来也麻烦你们了。”</p>
+          <br/>
+          <p>	不知不觉已经过去了很久。七凪和水心吃过晚饭，天色渐渐暗了下来，两人走在回到宿舍的路上。</p>
+          <p>	“哎，水心，忙了一天，今天的办法好像不管用啊。”</p>
+          <p>	“我早就已经告诉了你结果的。明天你不会还打算尝试吧？”</p>
+          <p>	“当然要尝试啦。虽然不知道什么时候才能成功，但是放弃的话肯定就失败了。听你这语气，你自己不会已经放弃了吧？这可是你的梦想啊，我们都还没放弃希望呢。”</p>
+          <p>	水心本来想实话实说，但是看到七凪为了自己而忙了大半天的样子，不知怎么地就不好意思这么说了。虽然不确定对方会是什么反应，但总觉得说出这样的话会让气氛很尴尬，而且有点对不起七凪。</p>
+          <p>	“啊……怎么会……”</p>
+          <p>	“那就好。看来你的情感缺失还没有我想象中的那么严重。所以目前只剩唯一一种办法了，就是在相处的过程中让你体会到各种情感了，你也一定要用心体会啊。”</p>
+          <p>	“嗯……”</p>
+          <p>	好像是从这以后，原本已经放弃自己重拾感情的梦想的水心，在一群热情的新朋友的感染之下，又踏上了追寻梦想的旅程。尽管她还是觉得成功的希望非常渺茫，但既然有人想要跟自己一起尝试这条路，那不管成功与否，还是陪对方走完这条路比较好吧，虽然不知道为什么自己会有这样的想法……</p>
+          <br/>
+          <p>（西8宿舍楼）</p>
+          <p>	“明天有什么课吗，水心？”羽衣一边打着哈欠，一边问水心。</p>
+          <p>	“只有早上有课。前两节是高等数学，后两节是古典文学鉴赏。”</p>
+          <p>	“想不到水心还喜欢古典文学，真是看不出来呢。”</p>
+          <p>	“还不是因为小时候想要找回自己的感情。我想，既然现实中找不到，那就到文学作品里找。我看了很多，也慢慢对古典文学产生了兴趣，自己也看了很多鉴赏的文章。现在，我看到一篇作品，基本都能说出作者表达了什么感情，但我却无法理解那种感情究竟是什么……班里的同学们都羡慕我的古文水平，但是我却羡慕同学们能够真正理解那些情感。”</p>
+          <p>	“原来是这样。不过这样的话似乎又离成功更近一步了呢。”</p>
+          <p>	“但愿如此吧。”水心对羽衣这种没有任何依据的推断似乎没有表现出反对。</p>
+          <p>	“那么时间不早了，赶紧睡觉吧，明天早上8点还有课呢。不过更重要的是，水心一定要在平时的生活中多多体会感情，只有这样才可能一点点地理解。”</p>
+          <p>	“嗯，我会努力的。”</p>
+          <br/>
+
+          <h2 id="第5话"><a href="#第5话" class="headerlink" title="第5话"></a>第5话  （未完成）</h2>
+          <p>“上午的课终于上完了。赶紧吃完午饭就会宿舍吧，羽衣应该在等着我。”水心一边心里这样想着，一边匆忙地走出教室，“真是奇怪，为什么会在这种时候想到羽衣呢……”</p>
+          <p>	突然，水心好像听到了谁在叫自己的名字。</p>
+          <p>	“啊，找到了，来得刚刚好。”仔细一看，原来是七凪。</p>
+          <p>	“你怎么会在这里？”水心有点惊讶。</p>
+          <p>	“今天我们社团要进行一个会议，羽衣前辈因为有相应的工作，所以已经提前去了。我怕我们都不在你一个人在宿舍里会比较无聊，所以就想叫上你一起去。”</p>
+          <p>	“是这样啊。如果你让我去那我就去吧。”</p>
+          <p>	“太好了。那你下午就暂时到我的寝室吧，到时候我们一起去。”</p>
+          <p>	“嗯。”</p>
+          <br/>
+          <p>（某一间教室里）</p>
+          <p>	“就是这里啦。”七凪和水心两个人找了右边靠前排的座位上坐下。</p>
+          <p>	“这到底是干嘛的？我还不知道是怎么一回事就稀里糊涂来参加了……”</p>
+          <p>	“放心吧，我已经事先跟羽衣说好了。水心就算不明白内容也没有关系，好不容易有机会来，不如就感受一下氛围吧。”</p>
+          <p>	“氛围？啊，是不是和找回感情有关？”</p>
+          <p>	“答对啦。不过事实上生活中的每分每秒都是有一定关系的哦。”</p>
+          <p>	“嗯……那我会认真体会的。”</p>
+          <p>	水心环顾四周，虽说这是会议，但是大家都有说有笑，十分轻松的样子，倒更像是来聚会的。另外，不时会有人往自己这里看，好像大家彼此都认识，只有自己是新面孔。不过，所有人看起来都很和善的样子，所以也不会感觉到很大的压力。</p>
+          <p>	“这里的成员全都是女生吗？”</p>
+          <p>	“大多数都是，但不全是。这是遗传的原因啦，因为我们社团需要有特殊能力，而女性遗传到的概率比男性大得多，所以就会这样啦。”</p>
+          <p>	“原来是这样……可是为什么我没有看到？”</p>
+          <p>	“在你前面的不就是吗？”</p>
+          <p>	水心看了看前面，果然和七凪说得一样。自己刚才把注意力集中到旁边所以没看到。</p>
+          <br/>
+          <p>	“抱歉听到了你们的对话，不过你们在说我吧？”前面的男生好像听到了两人的对话，转过头来跟水心打招呼，“我刚才一直很好奇坐在我后面的新成员到底是谁，现在终于有契机认识一下了……我叫天坂久方，以后请多多指教。”</p>
+          <p>	“啊，那个……我不是新成员，我只是来旁听的……”水心有一些不知所措，“我叫水……啊不，藤原美奈子，请多关照！”</p>
+          <p>	“不用那么紧张啦。”七凪看着水心的样子忍不住笑了。</p>
+          <br/>
+          <p>	“时间差不多了，那么我们现在开始吧。”芽吹和羽衣两人来到讲台前，下面变得安静下来。</p>
+          <br/>
+
+        </div>
+        <div class="post-copyright">
+          <div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span
+              class="post-copyright-info">zy</a></span></div>
+          <div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span
+              class="post-copyright-info"><a
+                href="https://lonely-programmer.github.io/kochi/">https://lonely-programmer.github.io/kochi/</a></span>
+          </div>
+          <div class="post-copyright__notice"><span class="post-copyright-meta">说明: </span><span
+              class="post-copyright-info">本博客的所有内容均已进入幻想。如果你也有着同样的幻想，说不定可以在梦中看到相似的世界……</span></div>
+        </div>
+        <div class="tag_share">
+          <div class="post-meta__tag-list"><a class="post-meta__tags"
+              href="https://lonely-programmer.github.io/tags/conclusion/">总结</a></div>
+          
+        </div>
+        
+        <hr>
+
+            <div class="vpage txt-center" style="display:none"><button type="button" class="vmore vbtn">加载更多...</button>
+            </div>
+            <div class="vpower txt-right">Powered By <a href="https://valine.js.org/"
+                target="_blank">Valine</a><br>v1.4.14</div>
+          <script
+            src="dat1/Valine.js"></script>
+          <script>var GUEST_INFO = ['nick', 'mail', 'link'];
+            var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+              return GUEST_INFO.indexOf(item) > -1
+            });
+            guest_info = guest_info.length == 0 ? GUEST_INFO : guest_info;
+
+            window.valine = new Valine({
+              el: '#vcomment',
+              appId: 'qKzKTqLS4IP0grV2Pq1waGQt-MdYXbMMI',
+              appKey: 'sYVhbspdU7W0iDOAMjPrtQ7c',
+              placeholder: '写个评论吧~',
+              avatar: 'mp',
+              meta: guest_info,
+              pageSize: '10',
+              lang: 'zh-CN',
+              recordIP: true,
+              serverURLs: '',
+              mathjax: false
+            });</script>
+        </div>
+      </article>
+    </main>
+    <footer id="footer" data-type="color">
+      <div id="footer-wrap">
+        <div class="copyright">©2020 By zy</div>
+        <div class="framework-info"><span>驱动 </span><a href="https://hexo.io/" target="_blank"
+            rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a
+            href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank"
+            rel="noopener"><span>Butterfly</span></a></div>
+      </div>
+    </footer>
+  </div>
+  <section class="rightside" id="rightside" style="opacity: 1; transform: translateX(-38px);">
+    <div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus"
+        id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a
+        class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换"
+        target="_self">繁</a></div>
+    <div id="rightside-config-show">
+      <div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment"
+        href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments"> </i></a><i
+        class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up"
+        id="go-up" title="回到顶部" aria-hidden="true"></i>
+    </div>
+  </section>
+  <div class="search-dialog" id="local-search">
+    <div class="search-dialog__title" id="local-search-title">本地搜索</div>
+    <div id="local-input-panel">
+      <div id="local-search-input">
+        <div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div>
+      </div>
+    </div>
+    <hr>
+    <div id="local-search-results">
+      <div id="local-hits"></div>
+      <div id="local-stats">
+        <div class="local-search-stats__hr" id="hr"><span>由</span> <a
+            href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener"
+            style="color:#49B1F5;">hexo-generator-search</a>
+          <span>提供支持</span></div>
+      </div>
+    </div><span class="search-close-button"><i class="fa fa-times"></i></span>
+  </div>
+  <div class="search-mask"></div>
+  <script
+    src="dat1/jquery_002.js"></script>
+  <script
+    src="dat1/utils.js"></script>
+  <script
+    src="dat1/main.js"></script>
+  <script
+    src="dat1/tw_cn.js"></script>
+  <script
+    src="dat1/jquery.js"></script>
+  <script defer="defer" id="ribbon"
+    src="dat1/canvas-ribbon.js"
+    size="150" alpha="0.6" zindex="-1" mobile="false" data-click="false"></script>
+  <script async=""
+    src="dat1/busuanzi.js"></script>
+  <script
+    src="dat1/instantpage.js"
+    type="module"></script>
+  <script
+    src="dat1/lazysizes.js"
+    async=""></script>
+  <script
+    src="dat1/local-search.js"></script>
+  <canvas width="1920" height="938"
+    style="opacity: 0.6; position: fixed; top: 0px; left: 0px; z-index: -1; width: 100%; height: 100%; pointer-events: none;"></canvas>
+</body>
+
+</html>

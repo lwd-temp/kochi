@@ -3743,7 +3743,7 @@ figure.gallery-group .gallery-group-name:after {
 #article-container h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
-  color: #f47466;
+  color: #6674f5;
   content: '\f0c1';
   font-style: normal;
   font-variant: normal;

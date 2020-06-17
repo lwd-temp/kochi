@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="zh-CN">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>小说：那段遗失的记忆</title>
+  <meta name="description"
+    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
+  <meta name="keywords" content="小说">
+  <meta name="author" content="dasasdhba">
+  <meta name="copyright" content="dasasdhba">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" href="jinja.png">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net/">
+  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="crossorigin">
+  <link rel="preconnect" href="https://busuanzi.ibruce.info/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Clickteam Fusion 系列教程 第一章">
+  <meta name="twitter:description"
+    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
+  <meta name="twitter:image" content="http://yanxuan.nosdn.127.net/563687168bb8b0a6d01957db2a0824c1.png">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Clickteam Fusion 系列教程 第一章">
+  <meta property="og:url" content="http://dasasdhba.github.io/course-CTFC1/">
+  <meta property="og:site_name" content="dasasdhba">
+  <meta property="og:description"
+    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
+  <meta property="og:image" content="http://yanxuan.nosdn.127.net/563687168bb8b0a6d01957db2a0824c1.png">
+  <meta property="article:published_time" content="2020-04-23T13:33:06.000Z">
+  <meta property="article:modified_time" content="2020-04-29T15:09:51.383Z">
+  <script
+    src="dat1/js.js"></script>
+  <link rel="stylesheet"
+    href="dat1/index.css">
+  <link rel="stylesheet"
+    href="dat1/font-awesome.css">
+  <link rel="stylesheet"
+    href="dat1/jquery.css">
+  <link rel="canonical" href="http://dasasdhba.github.io/course-CTFC1/">
+  <link rel="next" title="【资源】Clickteam Fusion 2.5+ 部分自制 &amp; 优化特效" href="http://dasasdhba.github.io/res-CTFeffect/">
+  <link rel="stylesheet"
+    href="dat1/css.css">
+  <script>var GLOBAL_CONFIG = {
+      root: '/',
+      algolia: undefined,
+      localSearch: { "path": "search.xml", "languages": { "hits_empty": "找不到您查询的内容:${query}" } },
+      translate: { "defaultEncoding": 2, "translateDelay": 0, "cookieDomain": "https://dasasdhba.github.io/", "msgToTraditionalChinese": "繁", "msgToSimplifiedChinese": "簡" },
+      copy: {
+        success: '复制成功',
+        error: '复制错误',
+        noSupport: '浏览器不支持'
+      },
+      bookmark: {
+        message_prev: '按',
+        message_next: '键将本页加入书签'
+      },
+      runtime_unit: '天',
+      runtime: true,
+      copyright: undefined,
+      ClickShowText: undefined,
+      medium_zoom: false,
+      fancybox: true,
+      Snackbar: undefined,
+      baiduPush: false,
+      highlightCopy: true,
+      highlightLang: true,
+      highlightShrink: 'false',
+      isFontAwesomeV5: false,
+      isPhotoFigcaption: false
+
+    }</script>
+  <script>var GLOBAL_CONFIG_SITE = {
+      isPost: true,
+      isHome: false,
+      isSidebar: true
+    }</script><noscript>
+    <style>
+      #page-header {
+        opacity: 1
+      }
+
+      .justified-gallery img {
+        opacity: 1
+      }
+    </style>
+  </noscript>
+  <meta name="generator" content="Hexo 4.2.0">
+  <link rel="alternate" href="https://dasasdhba.github.io/atom.xml" title="dasasdhba" type="application/atom+xml">
+  <style type="text/css">
+    .v[data-class=v] {
+      font-size: 16px;
+      text-align: left
+    }
+
+    .v[data-class=v] * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      line-height: 1.75
+    }
+
+    .v[data-class=v] .status-bar,
+    .v[data-class=v] .veditor,
+    .v[data-class=v] .vinput,
+    .v[data-class=v] p,
+    .v[data-class=v] pre code {
+      color: #555
+    }
+
+    .v[data-class=v] .vsys,
+    .v[data-class=v] .vtime {
+      color: #b3b3b3
+    }
+
+    .v[data-class=v] .text-right {
+      text-align: right
+    }
+
+    .v[data-class=v] .text-center {
+      text-align: center
+    }
+
+    .v[data-class=v] img {
+      max-width: 100%;
+      border: none
+    }
+
+    .v[data-class=v] hr {
+      margin: .825em 0;
+      border-color: #f6f6f6;
+      border-style: dashed
+    }
+
+    .v[data-class=v].hide-avatar .vimg {
+      display: none
+    }
+
+    .v[data-class=v] a {
+      position: relative;
+      cursor: pointer;
+      color: #1abc9c;
+      text-decoration: none;
+      display: inline-block
+    }
+
+    .v[data-class=v] a:hover {
+      color: #d7191a
+    }
+
+    .v[data-class=v] code,
+    .v[data-class=v] pre {
+      background-color: #f8f8f8;
+      padding: .2em .4em;
+      border-radius: 3px;
+      font-size: 85%;
+      margin: 0
+    }
+
+    .v[data-class=v] pre {
+      padding: 10px;
+      overflow: auto;
+      line-height: 1.45
+    }
+
+    .v[data-class=v] pre code {
+      padding: 0;
+      background: transparent;
+      white-space: pre-wrap;
+      word-break: keep-all
+    }
+
+    .v[data-class=v] blockquote {
+      color: #666;
+      margin: .5em 0;
+      padding: 0 0 0 1em;
+      border-left: 8px solid hsla(0, 0%, 93%, .5)
+    }
+
+    .v[data-class=v] .vinput {
+      border: none;
+      resize: none;
+      outline: none;
+      padding: 10px 5px;
+      max-width: 100%;
+      font-size: .775em
+    }
+
+    .v[data-class=v] input[type=checkbox],
+    .v[data-class=v] input[type=radio] {
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -2px
+    }
+
+    .v[data-class=v] .vicon {
+      cursor: pointer;
+      display: inline-block;
+      overflow: hidden;
+      fill: #555;
+      vertical-align: middle
+    }
+
+    .v[data-class=v] .vicon+.vicon {
+      margin-left: 10px
+    }
+
+    .v[data-class=v] .vicon.actived {
+      fill: #66b1ff
+    }
+
+    .v[data-class=v] .vrow {
+      font-size: 0;
+      padding: 10px 0
+    }
+
+    .v[data-class=v] .vrow .vcol {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-20 {
+      width: 20%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-30 {
+      width: 30%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-40 {
+      width: 40%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-50 {
+      width: 50%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-60 {
+      width: 60%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-70 {
+      width: 70%
+    }
+
+    .v[data-class=v] .vrow .vcol.vcol-80 {
+      width: 80%
+    }
+
+    .v[data-class=v] .vrow .vcol.vctrl {
+      font-size: 12px
+    }
+
+    .v[data-class=v] .emoji,
+    .v[data-class=v] .vemoji {
+      max-width: 25px;
+      vertical-align: middle;
+      margin: 0 1px;
+      display: inline-block
+    }
+
+    .v[data-class=v] .vwrap {
+      border: 1px solid #f0f0f0;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      position: relative;
+      padding: 10px
+    }
+
+    .v[data-class=v] .vwrap input {
+      background: transparent
+    }
+
+    .v[data-class=v] .vwrap .vedit {
+      position: relative;
+      padding-top: 10px
+    }
+
+    .v[data-class=v] .vwrap .cancel-reply-btn {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer
+    }
+
+    .v[data-class=v] .vwrap .vemojis {
+      display: none;
+      font-size: 18px;
+      max-height: 145px;
+      overflow: auto;
+      padding-bottom: 10px;
+      -webkit-box-shadow: 0 0 1px #f0f0f0;
+      box-shadow: 0 0 1px #f0f0f0
+    }
+
+    .v[data-class=v] .vwrap .vemojis i {
+      font-style: normal;
+      padding-top: 7px;
+      width: 36px;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle
+    }
+
+    .v[data-class=v] .vwrap .vpreview {
+      padding: 7px;
+      -webkit-box-shadow: 0 0 1px #f0f0f0;
+      box-shadow: 0 0 1px #f0f0f0
+    }
+
+    .v[data-class=v] .vwrap .vheader .vinput {
+      width: 33.33%;
+      border-bottom: 1px dashed #dedede
+    }
+
+    .v[data-class=v] .vwrap .vheader.item2 .vinput {
+      width: 50%
+    }
+
+    .v[data-class=v] .vwrap .vheader.item1 .vinput {
+      width: 100%
+    }
+
+    .v[data-class=v] .vwrap .vheader .vinput:focus {
+      border-bottom-color: #eb5055
+    }
+
+    @media screen and (max-width:520px) {
+
+      .v[data-class=v] .vwrap .vheader.item2 .vinput,
+      .v[data-class=v] .vwrap .vheader .vinput {
+        width: 100%
+      }
+    }
+
+    .v[data-class=v] .vpower {
+      color: #999;
+      font-size: .75em;
+      padding: .5em 0
+    }
+
+    .v[data-class=v] .vpower a {
+      font-size: .75em
+    }
+
+    .v[data-class=v] .vcount {
+      padding: 5px;
+      font-weight: 600;
+      font-size: 1.25em
+    }
+
+    .v[data-class=v] ol,
+    .v[data-class=v] ul {
+      padding: 0;
+      margin-left: 1.25em
+    }
+
+    .v[data-class=v] .txt-center {
+      text-align: center
+    }
+
+    .v[data-class=v] .txt-right {
+      text-align: right
+    }
+
+    .v[data-class=v] .pd5 {
+      padding: 5px
+    }
+
+    .v[data-class=v] .pd10 {
+      padding: 10px
+    }
+
+    .v[data-class=v] .veditor {
+      width: 100%;
+      min-height: 8.75em;
+      font-size: .875em;
+      background: transparent;
+      resize: vertical;
+      -webkit-transition: all .25s ease;
+      transition: all .25s ease
+    }
+
+    .v[data-class=v] .vbtn {
+      -webkit-transition-duration: .4s;
+      transition-duration: .4s;
+      text-align: center;
+      color: #555;
+      border: 1px solid #ededed;
+      border-radius: .3em;
+      display: inline-block;
+      background: transparent;
+      margin-bottom: 0;
+      font-weight: 400;
+      vertical-align: middle;
+      -ms-touch-action: manipulation;
+      touch-action: manipulation;
+      cursor: pointer;
+      white-space: nowrap;
+      padding: .5em 1.25em;
+      font-size: .875em;
+      line-height: 1.42857143;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      outline: none
+    }
+
+    .v[data-class=v] .vbtn+.vbtn {
+      margin-left: 1.25em
+    }
+
+    .v[data-class=v] .vbtn:active,
+    .v[data-class=v] .vbtn:hover {
+      color: #3090e4;
+      border-color: #3090e4
+    }
+
+    .v[data-class=v] .vbtn:disabled {
+      border-color: #e1e1e1;
+      color: #e1e1e1;
+      background-color: #fdfafa;
+      cursor: not-allowed
+    }
+
+    .v[data-class=v] .vempty {
+      padding: 1.25em;
+      text-align: center;
+      color: #555;
+      overflow: auto
+    }
+
+    .v[data-class=v] .vsys {
+      display: inline-block;
+      padding: .2em .5em;
+      font-size: .75em;
+      border-radius: .2em;
+      margin-right: .3em
+    }
+
+    @media screen and (max-width:520px) {
+      .v[data-class=v] .vsys {
+        display: none
+      }
+    }
+
+    .v[data-class=v] .vcards {
+      width: 100%
+    }
+
+    .v[data-class=v] .vcards .vcard {
+      padding-top: 1.25em;
+      position: relative;
+      display: block
+    }
+
+    .v[data-class=v] .vcards .vcard:after {
+      content: "";
+      clear: both;
+      display: block
+    }
+
+    .v[data-class=v] .vcards .vcard .vimg {
+      width: 3.125em;
+      height: 3.125em;
+      float: left;
+      border-radius: 50%;
+      margin-right: .7525em;
+      border: 1px solid #f5f5f5;
+      padding: .125em
+    }
+
+    @media screen and (max-width:720px) {
+      .v[data-class=v] .vcards .vcard .vimg {
+        width: 2.5em;
+        height: 2.5em
+      }
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead {
+      line-height: 1.5;
+      margin-top: 0
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead .vnick {
+      position: relative;
+      font-size: .875em;
+      font-weight: 500;
+      margin-right: .875em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block
+    }
+
+    .v[data-class=v] .vcards .vcard .vhead .vnick:hover {
+      color: #d7191a
+    }
+
+    .v[data-class=v] .vcards .vcard .vh {
+      overflow: hidden;
+      padding-bottom: .5em;
+      border-bottom: 1px dashed #f5f5f5
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vtime {
+      font-size: .75em;
+      margin-right: .875em
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vmeta {
+      line-height: 1;
+      position: relative
+    }
+
+    .v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+      font-size: .8125em;
+      color: #ef2f11;
+      cursor: pointer;
+      float: right
+    }
+
+    .v[data-class=v] .vcards .vcard:last-child .vh {
+      border-bottom: none
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent {
+      word-wrap: break-word;
+      word-break: break-all;
+      font-size: .875em;
+      line-height: 2;
+      position: relative;
+      margin-bottom: .75em;
+      padding-top: .625em
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent.expand {
+      cursor: pointer;
+      max-height: 8em;
+      overflow: hidden
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent.expand:before {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 3.15em;
+      background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, .9)));
+      background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .9));
+      z-index: 999
+    }
+
+    .v[data-class=v] .vcards .vcard .vcontent.expand:after {
+      display: block;
+      content: attr(data-expand);
+      text-align: center;
+      color: #828586;
+      position: absolute;
+      width: 100%;
+      height: 3.15em;
+      line-height: 3.15em;
+      left: 0;
+      bottom: 0;
+      z-index: 999;
+      background: hsla(0, 0%, 100%, .9)
+    }
+
+    .v[data-class=v] .vcards .vcard .vquote {
+      padding-left: 1em;
+      border-left: 1px dashed hsla(0, 0%, 93%, .5)
+    }
+
+    .v[data-class=v] .vcards .vcard .vquote .vimg {
+      width: 2.225em;
+      height: 2.225em
+    }
+
+    .v[data-class=v] .vpage .vmore {
+      margin: 1em 0
+    }
+
+    .v[data-class=v] .clear {
+      content: "";
+      display: block;
+      clear: both
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+      }
+
+      to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+      }
+
+      to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+      }
+    }
+
+    @-webkit-keyframes pulse {
+      50% {
+        background: #dcdcdc
+      }
+    }
+
+    @keyframes pulse {
+      50% {
+        background: #dcdcdc
+      }
+    }
+
+    .v[data-class=v] .vspinner {
+      width: 22px;
+      height: 22px;
+      display: inline-block;
+      border: 6px double #a0a0a0;
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: spin 1s infinite linear;
+      animation: spin 1s infinite linear;
+      position: relative;
+      vertical-align: middle;
+      margin: 0 5px
+    }
+
+    .dark .v[data-class=v] .status-bar,
+    .dark .v[data-class=v] .veditor,
+    .dark .v[data-class=v] .vinput,
+    .dark .v[data-class=v] p,
+    .dark .v[data-class=v] pre code,
+    .night .v[data-class=v] .status-bar,
+    .night .v[data-class=v] .veditor,
+    .night .v[data-class=v] .vinput,
+    .night .v[data-class=v] p,
+    .night .v[data-class=v] pre code,
+    .theme__dark .v[data-class=v] .status-bar,
+    .theme__dark .v[data-class=v] .veditor,
+    .theme__dark .v[data-class=v] .vinput,
+    .theme__dark .v[data-class=v] p,
+    .theme__dark .v[data-class=v] pre code,
+    [data-theme=dark] .v[data-class=v] .status-bar,
+    [data-theme=dark] .v[data-class=v] .veditor,
+    [data-theme=dark] .v[data-class=v] .vinput,
+    [data-theme=dark] .v[data-class=v] p,
+    [data-theme=dark] .v[data-class=v] pre code {
+      color: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vsys,
+    .dark .v[data-class=v] .vtime,
+    .night .v[data-class=v] .vsys,
+    .night .v[data-class=v] .vtime,
+    .theme__dark .v[data-class=v] .vsys,
+    .theme__dark .v[data-class=v] .vtime,
+    [data-theme=dark] .v[data-class=v] .vsys,
+    [data-theme=dark] .v[data-class=v] .vtime {
+      color: #929298
+    }
+
+    .dark .v[data-class=v] code,
+    .dark .v[data-class=v] pre,
+    .dark .v[data-class=v] pre code,
+    .night .v[data-class=v] code,
+    .night .v[data-class=v] pre,
+    .night .v[data-class=v] pre code,
+    .theme__dark .v[data-class=v] code,
+    .theme__dark .v[data-class=v] pre,
+    .theme__dark .v[data-class=v] pre code,
+    [data-theme=dark] .v[data-class=v] code,
+    [data-theme=dark] .v[data-class=v] pre,
+    [data-theme=dark] .v[data-class=v] pre code {
+      color: #929298;
+      background-color: #151414
+    }
+
+    .dark .v[data-class=v] .vwrap,
+    .night .v[data-class=v] .vwrap,
+    .theme__dark .v[data-class=v] .vwrap,
+    [data-theme=dark] .v[data-class=v] .vwrap {
+      border-color: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vicon,
+    .night .v[data-class=v] .vicon,
+    .theme__dark .v[data-class=v] .vicon,
+    [data-theme=dark] .v[data-class=v] .vicon {
+      fill: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vicon.actived,
+    .night .v[data-class=v] .vicon.actived,
+    .theme__dark .v[data-class=v] .vicon.actived,
+    [data-theme=dark] .v[data-class=v] .vicon.actived {
+      fill: #66b1ff
+    }
+
+    .dark .v[data-class=v] .vbtn,
+    .night .v[data-class=v] .vbtn,
+    .theme__dark .v[data-class=v] .vbtn,
+    [data-theme=dark] .v[data-class=v] .vbtn {
+      color: #b2b2b5;
+      border-color: #b2b2b5
+    }
+
+    .dark .v[data-class=v] .vbtn:hover,
+    .night .v[data-class=v] .vbtn:hover,
+    .theme__dark .v[data-class=v] .vbtn:hover,
+    [data-theme=dark] .v[data-class=v] .vbtn:hover {
+      color: #66b1ff;
+      border-color: #66b1ff
+    }
+
+    .dark .v[data-class=v] a:hover,
+    .night .v[data-class=v] a:hover,
+    .theme__dark .v[data-class=v] a:hover,
+    [data-theme=dark] .v[data-class=v] a:hover {
+      color: #d7191a
+    }
+
+    .dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,
+    .night .v[data-class=v] .vcards .vcard .vcontent.expand:before,
+    .theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,
+    [data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:before {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .7)));
+      background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7))
+    }
+
+    .dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,
+    .night .v[data-class=v] .vcards .vcard .vcontent.expand:after,
+    .theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,
+    [data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:after {
+      background: rgba(0, 0, 0, .7)
+    }
+
+    @media (prefers-color-scheme:dark) {
+
+      .v[data-class=v] .status-bar,
+      .v[data-class=v] .veditor,
+      .v[data-class=v] .vinput,
+      .v[data-class=v] p,
+      .v[data-class=v] pre code {
+        color: #b2b2b5
+      }
+
+      .v[data-class=v] .vsys,
+      .v[data-class=v] .vtime {
+        color: #929298
+      }
+
+      .v[data-class=v] code,
+      .v[data-class=v] pre,
+      .v[data-class=v] pre code {
+        color: #929298;
+        background-color: #151414
+      }
+
+      .v[data-class=v] .vwrap {
+        border-color: #b2b2b5
+      }
+
+      .v[data-class=v] .vicon {
+        fill: #b2b2b5
+      }
+
+      .v[data-class=v] .vicon.actived {
+        fill: #66b1ff
+      }
+
+      .v[data-class=v] .vbtn {
+        color: #b2b2b5;
+        border-color: #b2b2b5
+      }
+
+      .v[data-class=v] .vbtn:hover {
+        color: #66b1ff;
+        border-color: #66b1ff
+      }
+
+      .v[data-class=v] a:hover {
+        color: #d7191a
+      }
+
+      .v[data-class=v] .vcards .vcard .vcontent.expand:before {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .7)));
+        background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7))
+      }
+
+      .v[data-class=v] .vcards .vcard .vcontent.expand:after {
+        background: rgba(0, 0, 0, .7)
+      }
+    }
+  </style>
+  <link rel="prefetch" href="https://dasasdhba.github.io/categories/novel/">
+</head>
+
+<body>
+  <div id="mobile-sidebar">
+    <div id="menu_mask"></div>
+    <div id="mobile-sidebar-menus">
+      <div class="mobile_author_icon"><img class="avatar-img"
+          src="dat1/e08b8eb9c7a67229bd7f98f55cce0743.png"
+          onerror="onerror=null;src='undefined'" alt="avatar"></div>
+      <div class="mobile_post_data">
+        <div class="mobile_data_item is-center">
+          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/archives/">
+              <div class="headline">文章</div>
+              <div class="length_num">10</div>
+            </a></div>
+        </div>
+        <div class="mobile_data_item is-center">
+          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/tags/">
+              <div class="headline">标签</div>
+              <div class="length_num">4</div>
+            </a></div>
+        </div>
+        <div class="mobile_data_item is-center">
+          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/categories/">
+              <div class="headline">分类</div>
+              <div class="length_num">4</div>
+            </a></div>
+        </div>
+      </div>
+      <hr>
+      <div class="menus_items">
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives.html"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags.html"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories.html"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link.html"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about.html"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+          
+      </div>
+    </div>
+  </div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true"
+    style="transform: rotateZ(180deg); color: rgb(153, 169, 191); opacity: 1;"> </i>
+  <div id="sidebar" class="tocOpenPc" style="left: 0px;">
+    <div class="sidebar-toc">
+      <div class="sidebar-toc__title">目录</div>
+      <div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span
+          class="progress-num">19</span><span class="progress-percentage">%</span>
+        <div class="sidebar-toc__progress-bar" style="width: 19%;"> </div>
+      </div>
+      <div class="sidebar-toc__content">
+        <ol class="toc">
+          <li class="toc-item toc-level-1"><a class="toc-link" href="#那段遗失的记忆"><span class="toc-text">那段遗失的记忆</span></a>
+            <ol class="toc-child" style="">
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第1话"><span
+                    class="toc-text">第1话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第2话"><span
+                    class="toc-text">第2话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第3话"><span
+                    class="toc-text">第3话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第4话"><span
+                    class="toc-text">第4话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第5话"><span
+                    class="toc-text">第5话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第6话"><span
+                    class="toc-text">第6话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第7话"><span
+                    class="toc-text">第7话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第8话"><span
+                    class="toc-text">第8话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第9话"><span
+                    class="toc-text">第9话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#第10话"><span
+                    class="toc-text">第10话</span></a></li>
+              <li class="toc-item toc-level-2"><a class="toc-link active" href="#关于"><span
+                    class="toc-text">关于</span></a></li>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div id="body-wrap" style="padding-left: 300px;">
+    <div id="web_bg" data-type="photo"></div>
+    <div class="post-bg" id="nav"
+      style="background-image: url(http://i0.hdslb.com/bfs/album/ec5d888f599b41927bc64f073a97c12be9d6de9c.png)">
+      <div id="page-header" style="opacity: 1; animation: 1s ease 0s 1 normal none running headerNoOpacity;"
+        class="fixed"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name"
+            href="https://lonely-programmer.github.io/kochi/">東風神社</a></span><span class="pull_right menus"
+          style="padding-right: 300px;">
+          <div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span>
+                搜索</span></a></div>
+          <div class="menus_items">
+            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives.html"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags.html"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories.html"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link.html"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
+        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about.html"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+          </div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw"
+                aria-hidden="true"></i></a></span>
+        </span></div>
+      <div id="post-info">
+        <div id="post-title">
+          <div class="posttitle">那段遗失的记忆</div>
+        </div>
+        <div id="post-meta">
+          <div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created"
+                title="发表于 2020-04-23 21:33:06"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于
+                2020-04-23</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated"
+                title="更新于 2020-04-29 23:09:51"><i class="fa fa-history" aria-hidden="true"></i> 更新于
+                2020-04-29</span></time><span class="post-meta__categories"><span
+                class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a
+                class="post-meta__categories"
+                href="https://lonely-programmer.github.io/categories.html#novel">小说</a></span></div>
+          <div class="meta-secondline"> </div>
+
+        </div>
+      </div>
+    </div>
+    <main class="layout_post" id="content-inner">
+      <article id="post">
+        <div id="article-container">
+          <h1 id="那段遗失的记忆"><a href="#那段遗失的记忆" class="headerlink" title="那段遗失的记忆"></a>那段遗失的记忆</h1>
+          <p style="color:#66ccff"> <strong>提示：本作完成时间较早，在设定上可能与当前存在少量的出入，且对于每一段的长度控制、内容选定也有一些混乱，需要进一步的修改，还请注意！</strong></p>
+          <h2 id="第1话"><a href="#第1话" class="headerlink" title="第1话"></a>第1话  似乎忘记了什么曾经很在意的事情</h2>
+          <p>	2117年11月，下午，古津大学，西区宿舍楼13号楼的某间寝室。</p>
+          <p>	“瞳的记忆差不多已经修复好了，还差最后一点工作。你作为她的室友应该比较了解，这段记忆删掉的话应该没有问题吧？”说话的是一位高年级的学姐，一头美丽的金色长发，总让人有些羡慕。</p>
+          <p>	“我觉得可以吧。她已经因为这件事情困扰很久了。让她忘记这件事情应该会比较好吧。”在学姐旁边的是瞳的室友凛乃。她和瞳相处了1年多，彼此非常了解。</p>
+          <p>	“我知道了。那麻烦你把跟这些事情有关的东西都藏起来吧，等到过了一定的时间以后再拿出来。另外，你和她身边的其他人尽量不要提起这件事情。”</p>
+          <p>	“我会尽量做好的。”凛乃将实现转向瞳。瞳此时无意识地坐在椅子上，头上戴着能够编辑记忆的装置，装置的另一端连着学姐的电脑。“希望她能变得像之前那样爱笑吧。”凛乃默默地祈祷着。</p>
+          <br/>
+          <p>	过了一段时间，学姐完成了最后的修复工作，瞳慢慢醒来。</p>
+          <p>	“瞳，你终于醒啦！”在一旁看着的凛乃像是过了一个假期初次见面一样激动。</p>
+          <p>	“嗯……感觉自己好像睡了很久。那个，你旁边那个学姐是谁？”</p>
+          <p>	“我叫伊仓美香，叫我美香就好，是凛乃叫我来的。你在修改自己记忆的时候代码出了点问题，所以我刚才修复了一下。”一旁的学姐回答道。</p>
+          <p>	“还不快谢谢你的救命恩人。”凛乃对着还在回想发生了什么而愣住的瞳说。</p>
+          <p>	“哦……谢谢美香学姐。”瞳正想站起来，然而被头上戴着的记忆编辑装置拽了回来。</p>
+          <p>	“没事的，这是代码使应该做的事情。不过，编辑自己的记忆这种事情是很危险的，万一出了意外都没有人及时发现，还好这次凛乃及时发现。以后再也不要这样做了。作为惩罚，我已经把你的代码没收了。”学姐故作严肃地说道。</p>
+          <p>	“知道了……”瞳像被老师批评的小孩子一样微微低下了头。</p>
+          <p>	“那么，没什么事的话我先走了，我刚刚是上课的时候溜出来的……以后如果遇到什么类似的事情的话，可以随时联系我。”</p>
+          <br/>
+          <p>	学姐准备收拾东西离开。微风轻轻拂过，午后的阳光透过窗户照进房间，学姐的头发在阳光的照耀下格外美丽。</p>
+          <p>	看着眼前这位不仅外表美丽，举止优雅，而且操作熟练，乐于助人的学姐，瞳内心的赞叹和尊敬之情油然而生，同时也激起了一种难以言表的微妙的感觉。“我也想成为像美香学姐一样的代码使”，这样的想法不知为何就出现在了自己的脑海里。虽然瞳不太记得之前的事情了，但她可以确信这个想法不是美香学姐自作主张写入自己的记忆的。</p>
+          <p>	“那个——”在一旁欲言又止的瞳终于忍不住了，“其实……我……本来也想成为代码使的，但是自己悟性不好，所以才会写出学姐看到的有bug的代码。今天亲眼目睹了美香学姐的风采，觉得学姐很厉害，所以就有了想拜学姐为师的想法。那个……如果学姐很忙的话，那就算了吧。”</p>
+          <p>	学姐抬起头，然后给了瞳一个微笑，“可以啊。那你以后就是我的第一个徒弟了。”</p>
+          <p>	“真的吗？”瞳激动地想从椅子上站起来，但又被拽了回来。“谢谢美香学姐，我以后一定会努力学的。”</p>
+          <br/>
+          <p>	经过了波澜起伏的一天，冬日里宁静的夜晚给人一种放松的感觉。在这样的环境里，写写日记什么的是最适合的。</p>
+          <p>	“我记得之前自己想要删除什么记忆来着，但是代码有bug，所以才劳烦美香学姐来修复的。可是，我怎么完全想不起来是什么事情了，当时又忘记问了……算了，既然当时决心删掉那应该是什么不好的事情，想不起来也罢。”瞳回想着事情的经过，“而且日记本也不知道哪儿去了，真是头疼啊。不过，想到明天就可以到美香学姐那里去，心里就很高兴……只要一直努力学习的话，总有一天能成为像美香学姐一样厉害的代码使，到时候就能帮助更多人了吧。”</p>
+          <p>但是，瞳的内心总觉得美香学姐除了代码技术熟练以外，还有其他吸引人的地方……到底是什么呢？</p>
+          <br/>
+          
+          <h2 id="第2话"><a href="#第2话" class="headerlink" title="第2话"></a>第2话  代码使，启航</h2>
+          <p>	“那么我们就开始上课吧。”</p>
+          <p>	美香学姐的寝室对面有一间空的储藏室，问室友借了一张折叠式的桌子，再搬来两把椅子，刚出现不久的前沿知识就要在这个略显简陋的地方开始讲授了。</p>
+          <p>“好！”瞳满脸期待，笑容就像刚刚得知自己获得了奖学金一样灿烂。</p>
+          <br/>
+          <p>“我先来介绍一下背景。4年前，也就是2113年，出现了一种新的技术，叫做记忆编辑技术。在此基础上，人们设计出了一套记忆编辑装置。使用起来也不是很难，只要一端戴在头上，另一端连到电脑上，就可以像管理磁盘文件一样修改一个人的记忆。当然，如果要完成一些比较复杂的操作，就需要编写代码来实现，还是有点难度的，需要经过学习和训练才可以。也正是因为这个，通过代码来实现高级操作的人被称为代码使。”美香学姐虽然平时看上去没什么，但是一讲到自己擅长的内容，就看起来非常的专业。</p>
+          <p>“嗯。”瞳一边听着一边认真地在笔记本上记着。</p>
+          <p>“这些知道就好啦，不需要记的。重要的是无论什么时候，心里都要记住代码使的三个原则。”说到这里，美香学姐变得稍微严肃了一点。</p>
+          <p>“这个我好像没有听说过。”瞳疑惑地说道。</p>
+          <p>“所以你当时才会出现意外。那么我现在强调一下。第一，如果想要编辑别人的记忆，必须先得到对方的同意。第二，进行操作之前，必须确保自己要做的操作是安全的。第三，只做自己有把握的内容，而不要贸然去做自己不太熟练的内容。这些是最基本的内容，我建议你回去以后抄下来贴在墙上，这样随时都能提醒自己。”</p>
+          <p>“我一定会牢记的。”</p>
+          <br/>
+          <p>“嗯。那么下面就是整个记忆编辑的操作流程了。首先让对方把记忆编辑装置戴在头上，然后另一端连到电脑。让对方自然放松地坐，否则在后续容易扭到脖子或是摔到地上之类的……然后启动电脑上的IDE，打开你的代码文件。确认无误以后，选择构建->意识消除让对方暂时失去意识，避免读写数据的时候发生冲突。再选择构建->编译并运行，运行完成后选择构建->意识恢复让对方再次醒来。这样整个过程就完成了。”美香前辈一边说一边在电脑上演示。“这部分我就快一点了，既然你之前有能力把自己的记忆写炸，那就说明你应该已经了解这些了。不过，我要提醒你两点。第一，不要自己给自己执行代码，这样是很危险的，一旦出了问题你自己根本没法解决。第二，执行代码之前一定要先在虚拟机上试一下。另外，考虑到你现在还不太熟悉，试完以后要再给我看一下，没有问题以后才能执行。”</p>
+          <p>“好的，我会记住的。”</p>
+          <p>“嗯，很好。”美香前辈起身到寝室里拿来两本书，开始讲解一些细节，瞳入神地听着。</p>
+          <p>……</p>
+          <br/>
+          <p>“今天就讲到这里吧，这两本书送给你了。”</p>
+          <p>“真的吗？谢谢学姐。学姐今天真是辛苦了。”</p>
+          <p>“你可要好好学，我以后还指望你帮我分担掉一些工作呢。”</p>
+          <p>“我会努力的。”</p>
+          <br/>
+          <p>	晚上，瞳在寝室里坐在椅子上发呆。经过一整天的学习，想必很累了吧。</p>
+          <p>	这时，手机屏幕亮了起来，原来是高中同学萌萌子发来的消息。“听说你最近成为了代码使，还找了一个很厉害的前辈作为老师，一定很有前途，我很看好你。如果遇到了什么有趣的事情请一定和我分享哦。”</p>
+          <p>	萌萌子作为瞳的高中同学，两个人的关系还不错。虽然进了不同的大学，但时常还有联系。只是不知道是太忙还是出于什么别的原因，最近两个人几乎没有联系过。在这种情况下，萌萌子的消息如此灵通，瞳感觉有点惊奇，不过更多的是感到萌萌子对自己的关心。</p>
+          <p>	“一定会的。”瞳回复道。</p>
+          <br/>
+
+          <h2 id="第3话"><a href="#第3话" class="headerlink" title="第3话"></a>第3话  在那平凡而宁静的日子</h2>
+          <p>	期中考试刚刚过去一段时间，在古津大学，大家紧绷着的神经也稍稍放松下来，就连学校里的猫似乎也感受到了这种氛围，慵懒地坐在教学楼的台阶上休息。</p>
+          <p>	经过了早八的摧残以后，在午后小憩片刻是最好的。于是，凛乃趴在桌子上睡着了，一边做着梦一边还在想着要是醒来以后能吃到薯片就好了。可能一个人只有在梦中才能忘记作业和考试，逃离案牍之劳形，真正地考虑自己想做的事情吧。</p>
+          <p>	过了一会儿，凛乃迷迷糊糊地从梦中醒来。回头一看，只见瞳正拿着一包薯片。</p>
+          <br/>
+          <p>	“你现在一定很想吃薯片吧，刚才去教超帮你买来了。”瞳看起来有点兴奋，好像十分期待凛乃看到小惊喜以后的反应。</p>
+          <p>	“谢谢。”凛乃满脸疑惑的样子，“但是等一下，我明明只是在梦里想的，没有跟任何人提起，你为什么会知道我想吃什么？难道是你从美香学姐那里学到的黑科技？”</p>
+          <p>	“才没有的事，乱翻别人记忆里的数据可是违反职业道德的。我是用自己自带的能力得知你想吃什么的，你难道又忘了我有这个能力吗？”</p>
+          <p>	“你这么说倒是好像有点印象，但是具体的还是不太记得了。”</p>
+          <p>	“难怪你考试的时候总是记不住公式……那我再说一次好了。在这个世界上，除了代码使以外，还存在着可以不借助外部设备，而直接使用自己的能力访问他人记忆的人。这种能力是天生的，当然也需要后天的训练才能让技能觉醒。如果细分的话，可以分成两类。一种只能读取他人的记忆，称为灵；还有一种可以修改他人的记忆，称为魔。”</p>
+          <p>	“那你属于哪一种呢？”</p>
+          <p>	“当然是灵，我还没到那么可怕的地步。和其他的灵不同，我不是通过读取潜意识来实现能力的，而是直接和灵魂对话来完成的。我的能力是从祖母那里继承过来的，但是遗传到我这里就很弱了，所以我只能问到别人最想要什么，而且只有在别人睡着的时候接触对方才能实现。”</p>
+          <p>	“所以，你刚才是跟我的灵魂进行了交流？”</p>
+          <p>	“话是这么说没错，不过你完全不用担心有什么负面效果，因为作为灵，我是不能改变你的记忆的。不过，我高中有个同学秋代就比较可怕了，她不仅是魔，而且能力是操纵仇恨，一听就感觉很恐怖。但是我好像也从来没见她使用过自己的能力。”</p>
+          <p>	“听起来确实很可怕。”凛乃一边说着，一边好像突然想起了什么一般，急忙扯开话题，“那个，你过一会儿是不是和同学约出去玩了，时间好像也不早了。”</p>
+          <p>	“其实还有一段时间，不过既然你提到了我现在就开始准备准备换衣服吧。”</p>
+          <br/>
+          <p>	瞳约出去玩的对象是自己的高中同学萌萌子。虽然有一段时间没有联系了，但是自从前几天自己拜美香学姐为师以后好像接触又比较多了，正好可以趁这个机会跟老朋友寒暄两句。</p>
+          <p>	尽管有一段时间没有见面，但毕竟是老朋友，两人还是玩得很高兴。学校附近的小店虽然不怎么起眼，却往往是给人留下最快乐的记忆的地方之一。</p>
+          <p>	“当代码使这段时间感觉怎么样？”整个活动的最后，萌萌子才想起来还没有问这一点。</p>
+          <p>	“没有想象中那么简单，还是挺难的，但是也感觉很有意思。”瞳回答道。</p>
+          <p>	“听你这么说感觉你非常努力，一定要加油啊，我很看好你。”</p>
+          <p>	“谢谢，不过我还差得很远，但我会一直努力的。对了，秋代最近怎么样了，我和她很久都没有联系过。”</p>
+          <p>	“嗯……那个……她现在还挺好的，下次有空的话把她也叫过来吧。”萌萌子好像在回避着什么，“那么，天色也不早了，我们会学校吧。”</p>
+          <p>	“嗯，那我们走吧。”</p>
+          <p>“怎么感觉我一提到秋代大家就开始扯开话题……可能是我的错觉吧。”有那么一瞬间，瞳脑海里有这样的想法。不过，一路上和萌萌子聊天让她很快忘记了这个想法。也许这真的只是错觉吧。</p>
+          <br/>
+          <p>即使是在普通的一天里，也能有被一两个好友记起，一起度过愉快的一天，这既是再平常不过的事情，又何尝不是一件难得的事情。在成长和生活的道路上，每个人的微笑和关爱都是沿途最美的风景，不经意间抬起头，就能把这些美好的事物尽收眼底，成为自己源源不断的动力源泉。</p>
+          <p>“生活在这里真好。”瞳不禁发出了感叹。</p>
+          <br/>
+
+          <h2 id="第4话"><a href="#第4话" class="headerlink" title="第4话"></a>第4话  代码使，实战</h2>
+          <p>	简陋的储藏间，支起的桌子，搬来的椅子，师生两人，同样的场景，不同的一天。</p>
+          <p>	“看来你这几天下了苦功，基本概念差不多都搞清了。”美香前辈点了点头，“那么现在我们就来研究一些贴近实际的内容。”</p>
+          <p>	“实际的内容？对于写代码来说，理论和实际不是一样的吗？只要把理论的这些记忆的添加、修改、删除写成代码就好了。”瞳问道。</p>
+          <p>	“你说的这些只是基本功哦。虽然每个代码使用到的基本语句是一样的，但是每个人的思路都是不同的，各自有各自的风格。记忆编辑既是一门科学，更是一门艺术。”</p>
+          <p>	“这么神奇吗？”</p>
+          <p>	“那我举个例子吧。”美香前辈理了理头发，“我遇到最多的要求就是喜欢一个人却被拒绝，想要忘记这段感情，你觉得应该怎么操作呢？”</p>
+          <p>	“那简单。”瞳没怎么想就脱口而出，“先问清那个人的名字，以及感情发生的时间，然后从记忆里筛选出符合这两条的内容，最后删除就可以了。”</p>
+          <p>	“那样的话会出问题的哦。你说的这些确实没有错，但如果只做这些的话就会引发一系列的麻烦。如果那两个人再次相遇，因为你把那段记忆删除了，所以现在记忆的状态和当时非常接近，因此有很大的概率会重蹈覆辙，到时候对方又会来找你提出相同的要求，这是我们不希望看到的。”</p>
+          <p>	“果然回答错误了……那应该怎么办呢？”</p>
+          <p>	“一般的做法是在删除这段记忆以后，再添加上一段编造的记忆来维持状态的稳定性。对于这个例子的话，通常是在相遇的时间点以后就加上各种潜意识来潜移默化地灌输不能喜欢这个人的想法，当潜意识的暗示作用足够强的时候，即使两个人再相遇也不会产生什么不好的后果。至于怎么加上潜意识，这就要根据对方的经历来进行了，如果太离谱的话可能过几天就会穿帮了。”</p>
+          <p>	“听起来很神奇，怪不得说记忆编辑是一门艺术，因为每个代码使添加潜意识的方法和风格都是不同的。”瞳恍然大悟的样子，“但是给别人随便加上自己编的故事真的好吗？”</p>
+          <p>	“能提出这样的问题说明你对这个问题有一定的思考。对于这个问题，每个人都可以有不同的理解。在我看来，编故事的目的不在于欺骗对方一辈子从而让对方忘记某段难过的回忆。” 美香前辈把视线移向窗外，“相反，我希望对方能有一天从各种蛛丝马迹中发现，啊，原来这一段记忆是编造的，并且在身边朋友们的帮助下，通过各种方式寻找那段被删除的真正的记忆。而在追寻那段记忆的过程中，才会更加珍惜自己的经历，渐渐尝试勇敢地面对它们，而不是逃避。而代码使所做的，仅仅是帮助对方度过最初那几天最难过的日子，而要真正走出来还需要自己强大的内心，更重要的则是周围人的爱和温暖——每一颗心灵都值得我们去爱护和尊重，这也是我立志成为代码使的理由。所以，与其说记忆编辑是治愈心灵的良药，不如说是止痛药更加恰当。”</p>
+          <p>	“原来是这样，好厉害。”瞳似乎还听得意犹未尽的样子。</p>
+          <p>	听到这里，瞳似乎明白了什么。美香学姐作为代码使，不仅仅是写代码很擅长。更重要的是，她一直在考虑别人的感受，这也正是因为这一点让她的代码质量广受大家好评，而这就是美香学姐吸引自己的原因吧。</p>
+          <br/>
+          <p>	“好了，听了那么多，差不多也应该动手实践一下了。”美香前辈转移了话题。</p>
+          <p>	“欸？”瞳明显还没有做好准备。</p>
+          <p>	“第一次嘛，任务不会太难，我已经把代码写好了，你到时候只要执行一下就行了。最后别忘了把改动过的记忆导出，放到E盘备份一下，名字就写成对方的名字+日期。还有不要乱动其他选项，否则出了问题可能没法修复，那问题就很严重了。”</p>
+          <p>	“美香前辈还有修复不了的问题吗？”</p>
+          <p>	“当然有啦。如果只是一般的删错了我还能找回来，但是我以前碰到另一个代码使，她把自己的记忆全都用0填充，那我就真的没有办法了。这么说起来她已经昏迷了半年了，现在还躺着病床上用各种设备维持着生命。希望能有高人帮她修复记忆吧。所以乱动的话后果可能是很严重的。”</p>
+          <p>	“知道了，我一定小心操作。”</p>
+          <br/>
+          <p>	虽然以前有一些经验，但是瞳还是比较紧张的，全程几乎连眼睛都不敢眨一下，不过最后还是顺利地完成了所有操作。</p>
+          <p>	“最后只要备份一下就大功告成了。”瞳把文件复制到E盘，“命名成Hina_21171202，这样应该就行了。”</p>
+          <p>	由于是按照字母顺序排列的，重命名之后文件自动跑到了首字母H的文件之中。突然，瞳看到后面一行有一个名称为“Hitomi_21171115”的文件。</p>
+          <p>	“这……难道是我的记忆的备份？趁美香前辈不在，我偷看一下好了。”</p>
+          <br/>
+
+          <h2 id="第5话"><a href="#第5话" class="headerlink" title="第5话"></a>第5话  那段不愿被回想起的经历</h2>
+          <p>	伴随着虚拟机的启动，时间仿佛回到了几个月之前的夏天。</p>
+          <br/>
+          <p>	7月的小学期，不少同学因为没有课而从学校回家，学校显得空荡荡的。没有了平日的拥挤，没有了期末考试的压力，选一门自己感兴趣的通识课，傍晚下课之后去宿舍旁的超市里买自己喜欢吃的冷饮，边走回宿舍边欣赏夕阳的美景，回到寝室以后吹着空调，慢慢享受夏日的悠闲时光，这样的生活哪怕只是想一想都会让人心生向往。</p>
+          <p>	可是，这天的瞳却完全没有这样的心境。她高中时期就喜欢一个同班同学，到现在已经有两年多了，却一直没有说出口。而今天，她却得知那个人接受了另一个人的表白，而那个人是自己高中时期的朋友秋代。不仅如此，给两人的约会制造机会的正是自己的好朋友萌萌子，而她明明知道自己的事情……</p>
+          <p>	一时间，瞳感觉自己似乎失去了一切。曾经只要想一想就能给自己鼓舞和力量的那个光辉的形象，如今的关系却陷入了尴尬的境地。曾经见面还会打招呼的同学却夺走了自己最喜欢的人，而曾经的好朋友却促成了这一切的发生。三个人各自得到了快乐，而自己却独自一人承受着三倍的痛苦，没有什么比这更令人沮丧的了。</p>
+          <p>	无精打采地回到寝室，连室友凛乃的问候也无力回答，瞳就一个人呆坐在位子上。那个晚上，尽管凛乃陪在瞳的身边倾听着，但瞳还是哭了一个晚上，直到第二天眼睛还是红红的。</p>
+          <p>	之后的几天里，瞳无论做什么都心不在焉的。</p>
+          <br/>
+          <p>	直到有一天，事情才出现了转机。在刷OJ查代码的时候，瞳无意中看到了旁边关于记忆编辑的广告，她也被这项新技术所吸引，迫切地想要成为一名代码使，进而让自己忘记这些难过的事情。</p>
+          <p>	于是在接下来的3个月里，瞳如饥似渴地学着。她一直憋着一股劲，直到她亲手把自己的那段记忆删除的那一天。</p>
+          <p>	只是，不知出于什么原因，反复检查过的代码还是出了问题，她一个人在寝室里昏迷了几个小时。</p>
+          <p>	幸好之后回来的凛乃看到了头上戴着奇怪设备的瞳，怎么叫也叫不醒，马上意识到了危险的存在。凛乃平时瞄到过瞳学的是什么，也听说过学校里一个叫做美香的前辈的存在，才得以在第一时间找到了帮得上忙的人。</p>
+          <p>	后来的事情大家也都知道了。美香前辈恢复了瞳误删的部分记忆，并根据瞳写的代码上的注释了解到了瞳的意图，帮她删除了希望删除的记忆。而凛乃为了不让瞳短时间内再想起来，就把她的日记本藏了起来。</p>
+          <p>	从此以后，瞳又像什么都没发生一样快乐地生活中。</p>
+          <br/>
+          <p>	看到这里，瞳一动不动地盯着屏幕，似乎一下还接受不了，过了一会儿才缓过神来。不过，她还是想要确认这些内容的真实性，问一下美香前辈应该比较靠谱。</p>
+          <p>	“美香前辈，那个，电脑里的备份有我的记忆对吧。”瞳走到隔壁美香前辈的寝室，小心翼翼地问道。</p>
+          <p>	“啊？”正在吃着零食的美香前辈突然愣了一下，想要说什么却又没有说出口，过了几秒钟才有点支支吾吾地回答，“你是看到了自己的名字吧，其实呢，那个是正好有个人和你名字相同，所以呢……”</p>
+          <p>	“美香前辈！”瞳打断学姐的话，“这件事非常重要，所以请不要骗我。”</p>
+          <p>	“好吧，那个确实是你的记忆。”美香前辈一脸无奈又歉疚的表情，“对不起，我没有把数据保存好，给你造成了不好的影响，这一点是我的失误。如果不介意的话，我可以再帮你重新处理一下记忆。”</p>
+          <p>	“没关系的，不用了。”瞳面无表情地回答，“既然事情已经到了这种地步，与其再一次选择逃避，不如搞清楚到底发生了什么，这正是美香前辈所希望的不是吗。那么，我先走一步了。”说完，瞳打算离开。</p>
+          <p>	“那你一定要小心。如果有什么困难和疑惑的话，请随时问我。”美香前辈还是有些担心瞳会做出什么危险的事情。</p>
+          <p>	“放心吧，我会处理好的。”</p>
+          <br/>
+          <p>	自从看到了自己曾经的记忆以后，一个巨大的问号就出现在瞳的心中。萌萌子曾经是高中时期的好朋友，在那次事件中有意无意地伤害到了自己的感情，后来就不怎么联系了，这倒也可以理解。只是奇怪的是，为什么自己在失去了那段记忆以后，她又像什么也没有发生一样和自己经常联系呢？她到底是为了什么？</p>
+          <p>	“这种事果然还是亲自去问本人比较好。”瞳一边想着，一边请萌萌子第二天和自己在食堂对面的咖啡店碰面，“这样明天就能知道答案了。”</p>
+          <br/>
+
+          <h2 id="第6话"><a href="#第6话" class="headerlink" title="第6话"></a>第6话  为了再次看到你的微笑</h2>
+          <p>	临近考试周的午后，学校里的天空的小镇咖啡店里显得有些冷清，但也因此比平时更加惬意。</p>
+          <p>“所以，那件事是真的吗？”打过招呼以后，瞳迫不及待地切入了正题。</p>
+          <p>“欸？”坐在对面的萌萌子一脸惊讶，眼神好像一下子暗淡下来，迟疑了片刻，才慢慢地说道，“过去那段时间给你带来了那么多的困扰，我很抱歉也很难过。不过，既然你已经知道了一切的话，我的出现现在只能让你想起不好的回忆。我以后会渐渐从你的生活中离开的，希望你以后多保重。”</p>
+          <p>“等……等一下！”萌萌子的反应让瞳有点猝不及防，“我没有讨厌你的意思，所以你不需要这样做的。”</p>
+          <p>	“可是如果继续留在你身边的话，我自己也会觉得过意不去。”萌萌子显得有些沮丧。</p>
+          <p>	“如果不介意的话，请和我说一说吧，我或许可以帮你想想办法。”</p>
+          <br/>
+          <p>	“事情还要从我小时候说起。”萌萌子沉默了几秒以后，开始讲述自己的故事，“在我还很小的时候，我的父母就离婚了。那时的我还很小，所以对于当时的我来说，这就好像世界毁灭了一般。在以后的日子里，我几乎连一句话都没说过。</p>
+          <p>	“后来我就和父亲生活在一起。看到这样的我，他虽然表面上没有说什么，但内心还是很心疼的。他每天都陪伴着我，时不时带我出去玩。随着时间的流逝，我也渐渐从伤心的情绪中走了出来。</p>
+          <p>	“稍微长大一点以后，再次回想那段经历，我越来越感觉到爱在一个人成长中的重要性。我不愿意看到生活中有人因为各种原因像当时的我一样难过，更不愿意看到有人在难过的时候身边没有人关心而独自承受一切……所以我一直把用真诚和爱对待身边的人作为自己的行为准则，也会尽己所能帮助别人实现愿望。我想，只要这样的话就一定能把爱传递给周围的人，让所有的人脸上都充满微笑。</p>
+          <p>	“也正是出于这样的想法，我才会帮秋代完成她的心愿。只是，我忽略了你的感情，而这也成为了我最后悔的事情之一。虽然那以后就没怎么再见到你，但我可以想象到你有多难过。我也想过自己是不是能为你做点什么，但一想到我的出现只会提醒你回想起不好的事情，只能放弃了这个念头。</p>
+          <p>	“从那以后，我一直生活在愧疚之中，直到我听说美香前辈帮你删除了那段记忆。既然你忘记了那件事，我就算出现在你的身边也不会勾起不好的回忆了吧。于是，我就想一直在你的身边，用爱来弥补我曾经做出的决定，弥补那段时间给你带来的困扰。当你发现自己的过去的那天，我应该已经给你带来了很多快乐，到了那时即使离开你，我也算是弥补了自己的错误了，这样对我们都有好处。只是让我没有想到的是，那天来得那么快，我都还没有看过几次你的笑容……”</p>
+          <br/>
+          <p>	“原来你有这么一段经历。”瞳看着萌萌子说道，“过去的事情就让它过去吧。你一直为我着想我很感动。虽然记得不是很清楚了，但是那段日子我确实过得不好，不过呢，大家一直以来给我的关爱和温暖时刻提醒着我身边还有很多关心我的人想要再次看到我的微笑，这也成为了我走出阴霾的动力。真的非常感谢你和身边其他的朋友们。”</p>
+          <p>	“你真的已经不在意了吗？”萌萌子抬起了头。</p>
+          <p>	“嗯，真的。以后也要经常一起出来玩哦。”</p>
+          <p>	“一定会的。”</p>
+          <p>	“那么一言为定。”</p>
+          <br/>
+          <p>	“原来在我独自难过的时候，也有很多的人在关心着我。”瞳走在回到宿舍的路上思考着，“那时的我一定牵动着很多人的心吧。那么，过去的事情就让它过去吧，大家一定想看到我再次微笑的样子。”</p>
+          <p>	天空的小镇咖啡店，据说名字的由来有两个。遥远的天空象征美好的理想，同时“天”和“甜”发音相近，寓意充满甜蜜的爱的小镇。看来确实是这样的。</p>
+          <br/>
+
+          <h2 id="第7话"><a href="#第7话" class="headerlink" title="第7话"></a>第7话  不一样的期末考试</h2>
+          <p>	“马上又要到期末考试了，可是我感觉自己完全没有准备好。”凛乃一边看着复习资料一边就忍不住抱怨起来，“什么树啊、堆啊、傅里叶变换、拉普拉斯变化、高斯定理，这些代码和公式实在是太难记了，这次考试可要面临大危机了。”</p>
+          <p>	“你可以去问斜对面寝室的池子哦，她是我们附近几个寝室范围内公认的学霸，去年还拿了奖学金的。另外，美香学姐的学习成绩也是非常厉害的，只是因为她不想去搞学校规定的那些素拓项目，导致素拓分很低，所以才没拿到奖学金的，这一点我也是不久前才知道的。”听到了凛乃的抱怨，瞳在一边出主意。</p>
+          <p>	“池子的话我当然知道，我也去向她请教过了，可是人与人还是有差距的，像我这样的该不会的还是不会。美香学姐已经大四了，估计也不怎么记得大二的这些内容了吧。”凛乃无奈地叹了口气，“不过，最大的问题还是我记不住公式。要是能记住公式的话，考试的时候应该还能套用一下骗一点分数。”</p>
+          <p>	“如果是记不住公式的话那就不好办了，因为这个真的不太好记。”瞳在这一点上也有感触，“上次我为了机考背了好几天的KMP算法才勉强记住，考完过一天就又忘了。要知道那个算法的代码也就二三十行，而且有很多是重复的。”</p>
+          <br/>
+          <p>	“看来确实难记呢……不过，你刚才提到美香学姐，让我突然想到，代码使既然是修改记忆的，有没有办法让别人记住公式这类的东西呢？不过话说回来，这样会不会算是作弊什么的……”</p>
+          <p>	“理论上是可行的。实际上嘛……好像也是可行的。至于这样的行为是不是作弊，我觉得吧，这样做既没有违反考场规定，也没有违反代码使的准则，所以理应是可以的。”</p>
+          <p>	“那既然是可以的话，美香学姐作为学校里最有名的代码使，应该会经常收到这种请求吧。”</p>
+          <p>	“不过她从来没有答应过这样的请求。美香学姐给出的理由是，由于现在的技术有限，没有办法直接把知识点直接存储下来，只能将每个知识点打包成经历再写入记忆，但是这样的话非常浪费记忆容量，是有一定负面影响的操作。这么说确实是没错，但是完全可以通过事后删除这些内容的方式来消除这些负面影响。美香学姐不是那种想偷懒的人，所以我觉得她应该另有考虑。另一方面，她似乎并不反对代码使小规模地进行这种操作。所以我猜想，她之所以这么说，是因为她作为学校里比较知名的人物，一旦答应了这样的请求，消息势必会传开，这样就会在学校引起混乱，而她也会被学院请去喝茶，这样对大家都不好。”</p>
+          <p>	“原来是这样。真不愧是美香学姐，不仅代码能力很厉害，考虑事情也很周全。”</p>
+          <br/>
+          <p>	“那么你要不要试一试，我现在也具备了这个能力哦。正好我也可以通过这个机会来练习一下。”没等凛乃提出要求，瞳反而跃跃欲试了。</p>
+          <p>	“想的话自然是想的，但是想到你上次把自己的记忆写出bug来，最后劳驾美香学姐才修好，我就有点害怕呢。”凛乃有点调侃地说道。</p>
+          <p>	“我可不再是那个吴下阿蒙了，这点你不用担心。”瞳显得很自信，“不过我可没有强求你的意思，如果你不愿意的话就当我没说好了。”</p>
+          <p>	“怎么会？瞳的进步一直是大家有目共睹的，代码能力更是不用说的，我当然相信瞳的实力。”见瞳好像要改变意愿，凛乃马上改口。</p>
+          <p>	“嘴还挺甜的嘛，那我就答应你啦。不过你是我的室友的话，怎么说也应该答应的吧。”</p>
+          <br/>
+          <p>	就这样，对于凛乃来说，这将是一场不一样的期末考试。没有了背公式的压力，凛乃把注意力集中在了解题上，终于在考试到来前摸清了题目的套路。在考试前两天，瞳把公式写入了凛乃的记忆中，这样凛乃就可以比较流畅地做完一道题目了。在这些因素的帮助下，凛乃的考试进行得异常顺利。考试结束以后，瞳又把凛乃记忆中的这些公式删除了。这样，凛乃虽然完成了考试，但是却什么也不记得了。不过，其他的同学又何尝不是这样的呢，毕竟考完一门，如果后续的课程不会再用到，就很难再回想起公式了。</p>
+          <p>	另外，瞳从那个写代码经常会出bug的代码使，只用了一个多月就能独立完成整个操作，一定下了不少功夫，看来是真的很喜欢这份工作。</p>
+          <br/>
+
+          <h2 id="第8话"><a href="#第8话" class="headerlink" title="第8话"></a>第8话  那个被禁锢的能力</h2>
+          <p>	忙碌的考试周终于结束了，是时候迎接美好的寒假了。今天的阳光特别明媚，刚考完试的瞳也特别兴奋，总有一种想要在校园里散步的冲动。</p>
+          <p>	“这学期遇到的各种事情真是多，而且又要和美香前辈学习新知识，所以根本没有什么时间复习功课了，考试也全是临时突击的，这学期的排名又要下降了吧。”瞳叹了一口气，“不过呢，寒假就要开始了，我又可以尽情地做自己想做的事情了，想想就开心。”</p>
+          <br/>
+          <p>	想到这里，瞳不由自主地微笑着抬起头。前方不远处，一个棕色头发的少女迎面走来，看起来有点眼熟。这个好像是……秋代？真是冤家路窄啊。瞳正这么想着，对面的少女也注意到并认出了瞳，两人注视着对方，现场充斥着令人窒息的寂静。</p>
+          <p>	“你就是秋代吧？”瞳先打破了僵局。</p>
+          <p>	“正是。没想到今天能够遇到你。”秋代不紧不慢地回答道。</p>
+          <p>	“说得好像我很想见到你一样。”瞳一脸不屑的表情，“你做出这种事情还好意思承认是你自己，简直就是厚颜无耻。”</p>
+          <p>	“我完全听不懂你在说什么。”秋代反而有点疑惑，“如果你说的是先你一步得到喜欢的人的事情的话，那我确实伤害到了你的感情，我表示很抱歉，但是我也并没有做出什么违反道德底线的事情，为什么要这样形容我？”</p>
+          <p>	“我看你不是在装糊涂就是在避重就轻。”瞳显得更加不屑了，“现在的这个结果，难道不是你用自己的特殊能力造成的吗？”</p>
+          <p>	“我的能力？你是说我利用自己操纵仇恨的能力破坏了你们两个的关系才成功的吗？才没有的事，我一向都不滥用自己的能力，这是我一贯的原则，怎么可能做出这种事情来？感情这种事情果然还是要靠自己的真诚，用这种歪门邪道是不会长久的。”</p>
+          <p>	“我真是十分敬佩你的演技，竟然装得那么像。”</p>
+          <p>	“我说的都是实话……如果你还不信的话，我可以把我的经历讲一讲，这些我可是不怎么跟别人提起的。”</p>
+          <p>	“也罢，反正我今天有的是空，看你能编出什么故事来。”</p>
+          <br/>
+          <p>	秋代没有再反驳，而是直接开始讲述自己的故事。</p>
+          <p>“其实我的能力来自我的父亲，他的能力是可以操纵心灵的距离，也就是既可以让两个人变得更加亲密，也可以让两个人变得更加疏远。只是不知道为什么，我只继承了他一半的能力，因此我只能操纵仇恨。</p>
+          <p>“也正是这个能力给我带来了纠结的生活。作为一个仅拥有负面能力的人，只要稍微一不小心就很容易给别人造成伤害。由于这个原因，我的父亲几乎从来不允许我使用自己的能力，否则他就会严厉地批评我，并用自己的能力抵消我对别人附加的仇恨。</p>
+          <p>“那时的我，看到身边的人都很自由地使用着自己的能力，给生活带来了很多乐趣，只有我明明拥有能力却不能使用，心里非常的难过和委屈，甚至有过一些极端的想法。我也问过父亲自己的能力到底有什么用，存在的意义到底是什么，他只是摸着我的头对我说，等你长大了以后就知道了。</p>
+          <p>“从此，我每天都在寻找着这个问题的答案，但是却一直没有收获。时间慢慢地过去，我也逐渐接受了自己的能力被禁锢这一事实，渐渐看淡了一切。尽管如此，我还是没有停止对这个问题的思考。几年过去了，我依旧没能找到满意的答案，而我几乎忘记了自己还拥有这个能力，像普通人那样生活下去。</p>
+          <p>“直到有一天，有一个认识我的同学找到我，请求我对他使用自己的能力。我感觉非常惊讶，问他到底是怎么回事。他说自己喜欢一个人，但是却被对方拒绝了，自己想要忘记对方，但却因为太在意而无法忘记，所以想让我用自己的能力抵消对对方的好感，这样就可以不那么难过了。</p>
+          <p>“一开始我没有同意，因为我觉得这样改变别人的关系是不好的行为。但是看他非常难过的样子，我又于心不忍，所以最终还是答应了他，重新使用了已经好几年没有使用过的能力。</p>
+          <p>“对他使用了能力以后，他竟然第二天就不怎么难过了，又过了几天以后他像往常一样活跃起来，就像什么事情都没有发生一样。而从那以后，他也非常感激我。</p>
+          <p>“通过这件事，我终于找到了自己苦苦追寻的答案。即使是负面的能力，可能也会在意想不到的地方有用武之地。拥有正面能力的人往往可以给人创造快乐，帮助别人实现愿望，制造美好的回忆。但这些情感并不总是以人们所希望的方式存在，当它们成为了我们无法放下的牵绊的时候，可能反而会让人觉得困扰，而这就是我的能力存在的意义。</p>
+          <p>“因此，我给自己定下一个准则，只有对方愿意才能使用自己的能力。据我所知，这也是代码使所遵循的原则之一，你应该最了解了不是吗？”</p>
+          <br/>
+          <p>看来每个人都有一段不为人知的往事啊。</p>
+          <p>“这么说确实没错。”瞳的脸上不再有那种不屑的表情，声音也软了很多，“没想到你说的内容还是有点打动我的。没想到你也在一直帮助着别人。”</p>
+          <p>“这么说你就是相信我了？”秋代仍然不紧不慢地说道。</p>
+          <p>“才……才没有！”瞳把头转向一边，但是脸颊却有点红了，“虽……虽然你的故事很打动我，但是从理性的角度讲还是没有办法证明你说的是实话。”</p>
+          <p>“我已经把该说的都说了，信不信由你。不过从你的表情来看，应该是相信了吧。”</p>
+          <p>“我怎么想不用你来揣测！”瞳的脸颊更红了。</p>
+          <p>“那么，我还有考试需要复习，先走一步了。”说完，两人各自继续向前走去。</p>
+          <br/>
+          <p>“看来每个人都或多或少有着自己的苦衷。”瞳边走边想，“秋代的事情我已经不怎么在意了，她好像也已经看出了这一点。不过果然还是很难改变以往的传统，跟她笑着说话呢。那么以后就继续维持这种关系吧，她应该也是这么想的。”</p>
+          <p>古津大学真是一个神奇的地方，里面有着具有各种能力的人们和各种神秘的故事。而更神奇的是，在这里，似乎不管是什么矛盾都能走向和解，可能是因为某种不为人知的力量造成的吧。这样的地方，真是让人心生向往呢。</p>
+          <br/>
+
+          <h2 id="第9话"><a href="#第9话" class="headerlink" title="第9话"></a>第9话  代码使能力测试</h2>
+          <p>	冬季的校园里，雪花缓缓飘落，一片银装素裹。这是2118年的第一场雪，仿佛是在用这片雪景犒赏着人们过去一年以来的付出。是啊，经过了一学期紧张而忙碌的学习生活，又经历了这学期的种种意想不到的事情，享受轻松愉快的寒假是再好不过的。</p>
+          <p>	对于瞳来说，这个寒假自然和以往有所不同。首先当然就是看到期末考试成绩的心情不同。瞳从小就在学习上很刻苦努力，也十分在意自己的成绩，只是这学期因为各种事情分散了她的注意力，加上自己又花了很多时间学习记忆编辑，因此成绩自然不如以往了，她也因此有些失落。不过呢，在她对代码使的向往面前，这样的失落几乎不值一提。以往的她会在寒假预先学习下个学期的内容，但这次她却把整个寒假的时间都用在了记忆编辑技术的学习上，她的代码能力也因此得到了很大的提升。</p>
+          <p>	不仅如此，瞳还在寒假和美香学姐的另一个学生木灵成为了好朋友。可能是由于两个人都是代码使而且有都是灵的缘故，所以聊得特别投机。木灵出生于一个世代从事人形师的家族，因此拥有一双灵巧的双手，并亲手做了一个漂亮的人偶送给瞳，说是什么“祖传的上海人形手艺”。瞳非常喜欢，每天睡觉的时候都拿着它。只是瞳有时发现人偶会自己开始行动，木灵说自己做的人偶很多都有这个问题，是因为自己制作的时候控制不好自己的灵力。把这个人偶带到学校里的话，室友凛乃可能要被吓坏吧。</p>
+          <p>忙碌而充实的时光总是过得很快，转眼间，一个十分充实的寒假就过去了，新的学期又可以看到美香学姐了。</p>
+          <br/>
+          <p>	“才过了一个寒假，没想到你的进步那么大，我都怀疑是不是你本人了。”美香学姐看着瞳行云流水般的操作，一脸赞叹。</p>
+          <p>	“没有啦，只是因为喜欢所以寒假学了一些，但我感觉自己还有很多需要学习的地方。”听到赞美的瞳有点害羞。</p>
+          <p>	“你真的很努力哦。对了，你不考虑考一个证嘛，我一直这样带着你无证上岗还是不太好。”</p>
+          <p>	“有这个要求吗？我以前从来没有听说过。”</p>
+          <p>	“当然有这个规定。最常用的是代码使能力测试，分成L1~L9这9个级别，满分100分，30分理论，70分操作，总分60分及格。根据官方的说法，L1~L3属于初级，需要在L7级以上的人员指导下操作；L4~L6属于中级，可以独立操作，但需要有至少一名L7级以上的人员可以随时处理紧急情况；L7~L9属于高级，可以完全独立操作，并可以进行指导工作。不过这个考试每年只有7月和12月两次，现在的时间就比较尴尬。不过没有关系，还有实用代码力鉴定考试，所有奇数月都有，现在正好可以赶上3月份的。这个的话分为A~D级和E~F级。A~D级满分1000分，900分算A级，大约每100分一个档次。E~F级满分500分，350分算E级。难度的话我觉得A~D级对你来说有点难，E~F级对你来说又太简单了。官方说法是E级对应L4级，所以你去考E~F级基本可以过。当然如果你想挑战一下的话可以去尝试A~D级，但是做的时候就会比较痛苦。”</p>
+          <p>	“我选择A~D级。”瞳一脸坚定地回答。</p>
+          <p>	“这么坚决，看来很有底气哦，我支持你。”美香学姐看到瞳积极向上的样子露出了欣慰的笑容。</p>
+          <br/>
+          <p>	“那个，我想问一下学姐那么厉害是多少级。”</p>
+          <p>	“L8……”美香学姐轻轻地说道。</p>
+          <p>	“哇，太厉害了，怪不得感觉学姐没有什么是不会的。”还没等美香前辈说完，瞳就激动地叫了出来。</p>
+          <p>	“我其实是64分擦着线过的。我当时想考L7的，自己觉得准备得比较充分的时候就报名了，然而却不小心选成了L8，我又舍不得200块报名费，所以只能硬着头皮上了。你知道当时复习的时候有多绝望吗……”</p>
+          <p>	“那也很厉害了，我觉得L8的话自己的分数能到两位数就不错了。”</p>
+          <p>	“话说回来，你要好好准备哦，争取一次通过。”</p>
+          <p>	“嗯！我一定会努力的。”瞳眼神中充满了坚定。</p>
+          <br/>
+
+          <h2 id="第10话"><a href="#第10话" class="headerlink" title="第10话"></a>第10话  再见了，学姐</h2>
+          <p>	一到春季学期，冬季的沉闷好像一下子就被打破了一样。温暖的天气，校园各处盛开的花草，以及时不时袭来的让人难以抵御的春困，给人一种像是在做梦一样的错觉，似乎这样的生活可以一直持续下去也是理所应当的。</p>
+          <p>	对于瞳来说，周五总是一个星期中最惬意的时光之一。早上睡一个懒觉，再去上一节体育课，下午写一会儿作业，再去上一节充满各种让人难以记住的英文缩写的嵌入式以后，双休日就指日可待了。</p>
+          <p>	这一天，瞳刚吃完晚饭不久就兴高采烈地去找美香学姐了，一路上笑得像个孩子，看来还有什么更加高兴的事吧。</p>
+          <br/>
+          <p>	“星期五的晚上不好好休息，却跑到我这里来，看来是有什么事情想跟我分享吧？”美香学姐对瞳的到访有些意外。</p>
+          <p>	“上次代码使考试的成绩公布了，学姐猜一猜我多少分。”瞳故作神秘地说道。</p>
+          <p>	“看你那么得意，我猜是601分卡着线过的D级……”</p>
+          <p>	“NoNoNo！D级是猜对了，但分数没猜到哦。我这次考了650分呢。”</p>
+          <p>	“祝贺你！那很不错哦。650分的话相当于L5以上L6未满的水平，才半年就能达到这种程度，说明你非常努力，有我当年的风范。”</p>
+          <p>	“我还是要谢谢学姐，如果仅凭我一个人的话是不可能。不过，我总觉得学姐最后一句话是在夸自己……”</p>
+          <p>	“如果你不努力的话，那么我再怎么指导都是没有用的啦。另外我没有在夸自己，这明明就是事实。”</p>
+          <p>	“好了美香学姐，你就不要再反驳了。想必我能够通过考试，学姐也是很开心的吧。平时一直给人以严谨印象的学姐偶尔说出这样的话也是很可爱的啊。”</p>
+          <p>	“嗯。”美香学姐少见地露出了害羞的样子。</p>
+          <br/>
+          <p>	正如瞳所说，能够通过考试，美香学姐自然内心也是很高兴的，这自然不用多说。只是，美香学姐已经大四了，再过不久就要毕业，一场分别不可避免。她本来想把这件事告诉瞳，但是只有真的热爱一件事情，才会露出像瞳一样露出孩子一般的笑容吧。虽然相遇的时间并不是很长，但自己在她的心里应该很重要吧，就像她在自己的心里一样重要。</p>
+          <p>	看着桌子上放着的自己和瞳的合照，犹豫了再三，美香学姐还是决定告诉瞳。</p>
+          <br/>
+          <p>	“瞳啊，那个……我有一件事情想跟你说。”美香学姐有点担心的样子，语速也很慢，“我马上就要毕业了，现在你也具备了一定的代码能力，我可以放心地离开学校了。等到正式毕业以后，我打算去距离学校一站路的北桥开一家店，专门从事记忆编辑的工作。如果你想来的话随时欢迎你。”</p>
+          <p>	“嗯？”瞳听到消息的瞬间有点惊讶，但很快又露出了微笑，“没关系的啦。虽然我还没有想好以后想干什么，但是美香学姐不在的这段时间里，我也会继续努力的。不过，如果我遇到什么问题的话，学姐可要帮助我哦，不然把别人的记忆写炸了就不好了。”</p>
+          <p>	“那是当然的。”听到这里，美香学姐也露出了笑容，“这样的话我就放心了。”</p>
+          <br/>
+          <p>	虽然瞳在美香学姐面前一直保持着微笑，但一个人的时候还是忍不住想起这件事情，毕竟自己以后可能很少再有机会再遇到美香学姐了。不过转念一想，这也不是什么难以接受的事情不是吗。当初有幸遇见了美香学姐，也多亏了她才阴差阳错地改变了自己的生活。曾经的自己，那个因为错失自己心爱的人而对生活失去了信心，也不再相信这个世界上存在着爱。直到遇到了美香学姐，自己才渐渐意识到生活没有想象中的那么灰暗。随着时间的推移，自己逐渐感受到身边其实充满着大家的爱，也正是因为这个，自己才能彻底从过去的事情中走出来，跟萌萌子甚至秋代和解。通过这一切，自己也慢慢懂得了如何去把这份爱传递下去，而这也是成为了自己一生所追求的目标。美香学姐所带给自己的，不仅仅是代码上的各种技巧，更是这一份精神上的宝贵财富。</p>
+          <p>	“大家想看到的是一个微笑着的我，那就坚强地活下去吧。”瞳暗自下定决心。</p>
+          <br/>
+          <p>	在这以后，瞳接替了美香学姐在学校里有关代码使的工作。在这个过程中，她交到了更多的朋友，也越来越喜欢这份工作。与此同时，她还偶尔会和美香学姐互相串门，给对方一个惊喜。</p>
+          <p>	“这样的生活真好啊。”微风从窗外轻轻拂过，午后的阳光透过窗户照进房间，瞳的头发在阳光的照耀下格外美丽。</p>
+          <br/>
+
+          <h2 id="关于"><a href="关于" class="headerlink" title="关于"></a>关于</h2>
+          <p><strong>那段遗失的记忆</strong></p>
+          <p><strong>あの失ったの記憶 ～ The Forgotten Memory</strong></p>
+          <br/>
+          <p>总策划：</p>
+          <p>木村　冴</p>
+          <br/>
+          <p>主演人员：</p>
+          <p>加々谷　瞳　　　　　稲田　りんの　　　　伊倉　みか</p>
+          <p>花見　萌々子　　　　大空　秋代　　　　　梓川　木霊</p>
+          <br/>
+
+        </div>
+        <div class="post-copyright">
+          <div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span
+              class="post-copyright-info">zy</a></span></div>
+          <div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span
+              class="post-copyright-info"><a
+                href="https://lonely-programmer.github.io/kochi/novel3.html">https://lonely-programmer.github.io/kochi/novel3.html</a></span>
+          </div>
+          <div class="post-copyright__notice"><span class="post-copyright-meta">说明: </span><span
+              class="post-copyright-info">本博客的所有内容均已进入幻想。如果你也有着同样的幻想，说不定可以在梦中看到相似的世界……</span></div>
+        </div>
+        <div class="tag_share">
+          <div class="post-meta__tag-list"><a class="post-meta__tags"
+              href="https://lonely-programmer.github.io/tags.html#novel">小说</a></div>
+          
+        </div>
+        
+        <hr>
+
+            <div class="vpage txt-center" style="display:none"><button type="button" class="vmore vbtn">加载更多...</button>
+            </div>
+            <div class="vpower txt-right">Powered By <a href="https://valine.js.org/"
+                target="_blank">Valine</a><br>v1.4.14</div>
+          <script
+            src="dat1/Valine.js"></script>
+          <script>var GUEST_INFO = ['nick', 'mail', 'link'];
+            var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+              return GUEST_INFO.indexOf(item) > -1
+            });
+            guest_info = guest_info.length == 0 ? GUEST_INFO : guest_info;
+
+            window.valine = new Valine({
+              el: '#vcomment',
+              appId: 'qKzKTqLS4IP0grV2Pq1waGQt-MdYXbMMI',
+              appKey: 'sYVhbspdU7W0iDOAMjPrtQ7c',
+              placeholder: '写个评论吧~',
+              avatar: 'mp',
+              meta: guest_info,
+              pageSize: '10',
+              lang: 'zh-CN',
+              recordIP: true,
+              serverURLs: '',
+              mathjax: false
+            });</script>
+        </div>
+      </article>
+    </main>
+    <footer id="footer" data-type="color">
+      <div id="footer-wrap">
+        <div class="copyright">©2020 By zy</div>
+        <div class="framework-info"><span>驱动 </span><a href="https://hexo.io/" target="_blank"
+            rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a
+            href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank"
+            rel="noopener"><span>Butterfly</span></a></div>
+      </div>
+    </footer>
+  </div>
+  <section class="rightside" id="rightside" style="opacity: 1; transform: translateX(-38px);">
+    <div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus"
+        id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a
+        class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换"
+        target="_self">繁</a></div>
+    <div id="rightside-config-show">
+      <div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment"
+        href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments"> </i></a><i
+        class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up"
+        id="go-up" title="回到顶部" aria-hidden="true"></i>
+    </div>
+  </section>
+  <div class="search-dialog" id="local-search">
+    <div class="search-dialog__title" id="local-search-title">本地搜索</div>
+    <div id="local-input-panel">
+      <div id="local-search-input">
+        <div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div>
+      </div>
+    </div>
+    <hr>
+    <div id="local-search-results">
+      <div id="local-hits"></div>
+      <div id="local-stats">
+        <div class="local-search-stats__hr" id="hr"><span>由</span> <a
+            href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener"
+            style="color:#49B1F5;">hexo-generator-search</a>
+          <span>提供支持</span></div>
+      </div>
+    </div><span class="search-close-button"><i class="fa fa-times"></i></span>
+  </div>
+  <div class="search-mask"></div>
+  <script
+    src="dat1/jquery_002.js"></script>
+  <script
+    src="dat1/utils.js"></script>
+  <script
+    src="dat1/main.js"></script>
+  <script
+    src="dat1/tw_cn.js"></script>
+  <script
+    src="dat1/jquery.js"></script>
+  <script defer="defer" id="ribbon"
+    src="dat1/canvas-ribbon.js"
+    size="150" alpha="0.6" zindex="-1" mobile="false" data-click="false"></script>
+  <script async=""
+    src="dat1/busuanzi.js"></script>
+  <script
+    src="dat1/instantpage.js"
+    type="module"></script>
+  <script
+    src="dat1/lazysizes.js"
+    async=""></script>
+  <script
+    src="dat1/local-search.js"></script>
+  <canvas width="1920" height="938"
+    style="opacity: 0.6; position: fixed; top: 0px; left: 0px; z-index: -1; width: 100%; height: 100%; pointer-events: none;"></canvas>
+</body>
+
+</html>

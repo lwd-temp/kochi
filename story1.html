@@ -2,83 +2,64 @@
 <html data-theme="light" lang="zh-CN">
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>故事：振翅之时</title>
-  <meta name="description"
-    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
-  <meta name="keywords" content="故事">
-  <meta name="author" content="dasasdhba">
-  <meta name="copyright" content="dasasdhba">
-  <meta name="format-detection" content="telephone=no">
-  <link rel="shortcut icon" href="jinja.png">
-  <meta http-equiv="Cache-Control" content="no-transform">
-  <meta http-equiv="Cache-Control" content="no-siteapp">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net/">
-  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="crossorigin">
-  <link rel="preconnect" href="https://busuanzi.ibruce.info/">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Clickteam Fusion 系列教程 第一章">
-  <meta name="twitter:description"
-    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
-  <meta name="twitter:image" content="http://yanxuan.nosdn.127.net/563687168bb8b0a6d01957db2a0824c1.png">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Clickteam Fusion 系列教程 第一章">
-  <meta property="og:url" content="http://dasasdhba.github.io/course-CTFC1/">
-  <meta property="og:site_name" content="dasasdhba">
-  <meta property="og:description"
-    content="第一章：入门前言大概算是深度使用过这个软件，现在属于被这个软件坑得心理阴影非常严重的那种。至于为什么这么说，这个软件入门怎么说确实很友好，但只要想稍微构建一些复杂的东西，做起来就相当的麻烦（至少比同类软件麻烦得多）。 我在这个软件下搞了一个规模比较大的项目：Super Mario Milky Way Wishes。在这个过程中，我不知道被坑了多少次，踩了多少雷。 我开这个教程，是不想让我以前踩过的">
-  <meta property="og:image" content="http://yanxuan.nosdn.127.net/563687168bb8b0a6d01957db2a0824c1.png">
-  <meta property="article:published_time" content="2020-04-23T13:33:06.000Z">
-  <meta property="article:modified_time" content="2020-04-29T15:09:51.383Z">
-  <script
-    src="dat1/js.js"></script>
-  <link rel="stylesheet"
-    href="dat1/index.css">
-  <link rel="stylesheet"
-    href="dat1/font-awesome.css">
-  <link rel="stylesheet"
-    href="dat1/jquery.css">
-  <link rel="canonical" href="http://dasasdhba.github.io/course-CTFC1/">
-  <link rel="next" title="【资源】Clickteam Fusion 2.5+ 部分自制 &amp; 优化特效" href="http://dasasdhba.github.io/res-CTFeffect/">
-  <link rel="stylesheet"
-    href="dat1/css.css">
-  <script>var GLOBAL_CONFIG = {
-      root: '/',
-      algolia: undefined,
-      localSearch: { "path": "search.xml", "languages": { "hits_empty": "找不到您查询的内容:${query}" } },
-      translate: { "defaultEncoding": 2, "translateDelay": 0, "cookieDomain": "https://dasasdhba.github.io/", "msgToTraditionalChinese": "繁", "msgToSimplifiedChinese": "簡" },
-      copy: {
-        success: '复制成功',
-        error: '复制错误',
-        noSupport: '浏览器不支持'
-      },
-      bookmark: {
-        message_prev: '按',
-        message_next: '键将本页加入书签'
-      },
-      runtime_unit: '天',
-      runtime: true,
-      copyright: undefined,
-      ClickShowText: undefined,
-      medium_zoom: false,
-      fancybox: true,
-      Snackbar: undefined,
-      baiduPush: false,
-      highlightCopy: true,
-      highlightLang: true,
-      highlightShrink: 'false',
-      isFontAwesomeV5: false,
-      isPhotoFigcaption: false
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>故事：振翅之时</title>
+    <link rel="shortcut icon" href="jinja.png">
+    <script src="dat1/js.js"></script>
+    <link rel="stylesheet" href="dat1/index.css">
+    <link rel="stylesheet" href="dat1/font-awesome.css">
+    <link rel="stylesheet" href="dat1/jquery.css">
+    <link rel="canonical" href="http://dasasdhba.github.io/course-CTFC1/">
+    <link rel="stylesheet" href="dat1/css.css">
+    <script>
+        var GLOBAL_CONFIG = {
+            root: '/',
+            algolia: undefined,
+            localSearch: {
+                "path": "search.xml",
+                "languages": {
+                    "hits_empty": "找不到您查询的内容:${query}"
+                }
+            },
+            translate: {
+                "defaultEncoding": 2,
+                "translateDelay": 0,
+                "cookieDomain": "https://lonely-programmer.github.io/",
+                "msgToTraditionalChinese": "繁",
+                "msgToSimplifiedChinese": "簡"
+            },
+            copy: {
+                success: '复制成功',
+                error: '复制错误',
+                noSupport: '浏览器不支持'
+            },
+            bookmark: {
+                message_prev: '按',
+                message_next: '键将本页加入书签'
+            },
+            runtime_unit: '天',
+            runtime: true,
+            copyright: undefined,
+            ClickShowText: undefined,
+            medium_zoom: false,
+            fancybox: true,
+            Snackbar: undefined,
+            baiduPush: false,
+            highlightCopy: true,
+            highlightLang: true,
+            highlightShrink: 'false',
+            isFontAwesomeV5: false,
+            isPhotoFigcaption: false
 
-    }</script>
-  <script>var GLOBAL_CONFIG_SITE = {
-      isPost: true,
-      isHome: false,
-      isSidebar: true
-    }</script><noscript>
+        }
+    </script>
+    <script>
+        var GLOBAL_CONFIG_SITE = {
+            isPost: true,
+            isHome: false,
+            isSidebar: true
+        }
+    </script><noscript>
     <style>
       #page-header {
         opacity: 1
@@ -89,1090 +70,317 @@
       }
     </style>
   </noscript>
-  <meta name="generator" content="Hexo 4.2.0">
-  <link rel="alternate" href="https://dasasdhba.github.io/atom.xml" title="dasasdhba" type="application/atom+xml">
-  <style type="text/css">
-    .v[data-class=v] {
-      font-size: 16px;
-      text-align: left
-    }
-
-    .v[data-class=v] * {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      line-height: 1.75
-    }
-
-    .v[data-class=v] .status-bar,
-    .v[data-class=v] .veditor,
-    .v[data-class=v] .vinput,
-    .v[data-class=v] p,
-    .v[data-class=v] pre code {
-      color: #555
-    }
-
-    .v[data-class=v] .vsys,
-    .v[data-class=v] .vtime {
-      color: #b3b3b3
-    }
-
-    .v[data-class=v] .text-right {
-      text-align: right
-    }
-
-    .v[data-class=v] .text-center {
-      text-align: center
-    }
-
-    .v[data-class=v] img {
-      max-width: 100%;
-      border: none
-    }
-
-    .v[data-class=v] hr {
-      margin: .825em 0;
-      border-color: #f6f6f6;
-      border-style: dashed
-    }
-
-    .v[data-class=v].hide-avatar .vimg {
-      display: none
-    }
-
-    .v[data-class=v] a {
-      position: relative;
-      cursor: pointer;
-      color: #1abc9c;
-      text-decoration: none;
-      display: inline-block
-    }
-
-    .v[data-class=v] a:hover {
-      color: #d7191a
-    }
-
-    .v[data-class=v] code,
-    .v[data-class=v] pre {
-      background-color: #f8f8f8;
-      padding: .2em .4em;
-      border-radius: 3px;
-      font-size: 85%;
-      margin: 0
-    }
-
-    .v[data-class=v] pre {
-      padding: 10px;
-      overflow: auto;
-      line-height: 1.45
-    }
-
-    .v[data-class=v] pre code {
-      padding: 0;
-      background: transparent;
-      white-space: pre-wrap;
-      word-break: keep-all
-    }
-
-    .v[data-class=v] blockquote {
-      color: #666;
-      margin: .5em 0;
-      padding: 0 0 0 1em;
-      border-left: 8px solid hsla(0, 0%, 93%, .5)
-    }
-
-    .v[data-class=v] .vinput {
-      border: none;
-      resize: none;
-      outline: none;
-      padding: 10px 5px;
-      max-width: 100%;
-      font-size: .775em
-    }
-
-    .v[data-class=v] input[type=checkbox],
-    .v[data-class=v] input[type=radio] {
-      display: inline-block;
-      vertical-align: middle;
-      margin-top: -2px
-    }
-
-    .v[data-class=v] .vicon {
-      cursor: pointer;
-      display: inline-block;
-      overflow: hidden;
-      fill: #555;
-      vertical-align: middle
-    }
-
-    .v[data-class=v] .vicon+.vicon {
-      margin-left: 10px
-    }
-
-    .v[data-class=v] .vicon.actived {
-      fill: #66b1ff
-    }
-
-    .v[data-class=v] .vrow {
-      font-size: 0;
-      padding: 10px 0
-    }
-
-    .v[data-class=v] .vrow .vcol {
-      display: inline-block;
-      vertical-align: middle;
-      font-size: 14px
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-20 {
-      width: 20%
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-30 {
-      width: 30%
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-40 {
-      width: 40%
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-50 {
-      width: 50%
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-60 {
-      width: 60%
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-70 {
-      width: 70%
-    }
-
-    .v[data-class=v] .vrow .vcol.vcol-80 {
-      width: 80%
-    }
-
-    .v[data-class=v] .vrow .vcol.vctrl {
-      font-size: 12px
-    }
-
-    .v[data-class=v] .emoji,
-    .v[data-class=v] .vemoji {
-      max-width: 25px;
-      vertical-align: middle;
-      margin: 0 1px;
-      display: inline-block
-    }
-
-    .v[data-class=v] .vwrap {
-      border: 1px solid #f0f0f0;
-      border-radius: 4px;
-      margin-bottom: 10px;
-      overflow: hidden;
-      position: relative;
-      padding: 10px
-    }
-
-    .v[data-class=v] .vwrap input {
-      background: transparent
-    }
-
-    .v[data-class=v] .vwrap .vedit {
-      position: relative;
-      padding-top: 10px
-    }
-
-    .v[data-class=v] .vwrap .cancel-reply-btn {
-      position: absolute;
-      right: 5px;
-      top: 5px;
-      cursor: pointer
-    }
-
-    .v[data-class=v] .vwrap .vemojis {
-      display: none;
-      font-size: 18px;
-      max-height: 145px;
-      overflow: auto;
-      padding-bottom: 10px;
-      -webkit-box-shadow: 0 0 1px #f0f0f0;
-      box-shadow: 0 0 1px #f0f0f0
-    }
-
-    .v[data-class=v] .vwrap .vemojis i {
-      font-style: normal;
-      padding-top: 7px;
-      width: 36px;
-      cursor: pointer;
-      text-align: center;
-      display: inline-block;
-      vertical-align: middle
-    }
-
-    .v[data-class=v] .vwrap .vpreview {
-      padding: 7px;
-      -webkit-box-shadow: 0 0 1px #f0f0f0;
-      box-shadow: 0 0 1px #f0f0f0
-    }
-
-    .v[data-class=v] .vwrap .vheader .vinput {
-      width: 33.33%;
-      border-bottom: 1px dashed #dedede
-    }
-
-    .v[data-class=v] .vwrap .vheader.item2 .vinput {
-      width: 50%
-    }
-
-    .v[data-class=v] .vwrap .vheader.item1 .vinput {
-      width: 100%
-    }
-
-    .v[data-class=v] .vwrap .vheader .vinput:focus {
-      border-bottom-color: #eb5055
-    }
-
-    @media screen and (max-width:520px) {
-
-      .v[data-class=v] .vwrap .vheader.item2 .vinput,
-      .v[data-class=v] .vwrap .vheader .vinput {
-        width: 100%
-      }
-    }
-
-    .v[data-class=v] .vpower {
-      color: #999;
-      font-size: .75em;
-      padding: .5em 0
-    }
-
-    .v[data-class=v] .vpower a {
-      font-size: .75em
-    }
-
-    .v[data-class=v] .vcount {
-      padding: 5px;
-      font-weight: 600;
-      font-size: 1.25em
-    }
-
-    .v[data-class=v] ol,
-    .v[data-class=v] ul {
-      padding: 0;
-      margin-left: 1.25em
-    }
-
-    .v[data-class=v] .txt-center {
-      text-align: center
-    }
-
-    .v[data-class=v] .txt-right {
-      text-align: right
-    }
-
-    .v[data-class=v] .pd5 {
-      padding: 5px
-    }
-
-    .v[data-class=v] .pd10 {
-      padding: 10px
-    }
-
-    .v[data-class=v] .veditor {
-      width: 100%;
-      min-height: 8.75em;
-      font-size: .875em;
-      background: transparent;
-      resize: vertical;
-      -webkit-transition: all .25s ease;
-      transition: all .25s ease
-    }
-
-    .v[data-class=v] .vbtn {
-      -webkit-transition-duration: .4s;
-      transition-duration: .4s;
-      text-align: center;
-      color: #555;
-      border: 1px solid #ededed;
-      border-radius: .3em;
-      display: inline-block;
-      background: transparent;
-      margin-bottom: 0;
-      font-weight: 400;
-      vertical-align: middle;
-      -ms-touch-action: manipulation;
-      touch-action: manipulation;
-      cursor: pointer;
-      white-space: nowrap;
-      padding: .5em 1.25em;
-      font-size: .875em;
-      line-height: 1.42857143;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      outline: none
-    }
-
-    .v[data-class=v] .vbtn+.vbtn {
-      margin-left: 1.25em
-    }
-
-    .v[data-class=v] .vbtn:active,
-    .v[data-class=v] .vbtn:hover {
-      color: #3090e4;
-      border-color: #3090e4
-    }
-
-    .v[data-class=v] .vbtn:disabled {
-      border-color: #e1e1e1;
-      color: #e1e1e1;
-      background-color: #fdfafa;
-      cursor: not-allowed
-    }
-
-    .v[data-class=v] .vempty {
-      padding: 1.25em;
-      text-align: center;
-      color: #555;
-      overflow: auto
-    }
-
-    .v[data-class=v] .vsys {
-      display: inline-block;
-      padding: .2em .5em;
-      font-size: .75em;
-      border-radius: .2em;
-      margin-right: .3em
-    }
-
-    @media screen and (max-width:520px) {
-      .v[data-class=v] .vsys {
-        display: none
-      }
-    }
-
-    .v[data-class=v] .vcards {
-      width: 100%
-    }
-
-    .v[data-class=v] .vcards .vcard {
-      padding-top: 1.25em;
-      position: relative;
-      display: block
-    }
-
-    .v[data-class=v] .vcards .vcard:after {
-      content: "";
-      clear: both;
-      display: block
-    }
-
-    .v[data-class=v] .vcards .vcard .vimg {
-      width: 3.125em;
-      height: 3.125em;
-      float: left;
-      border-radius: 50%;
-      margin-right: .7525em;
-      border: 1px solid #f5f5f5;
-      padding: .125em
-    }
-
-    @media screen and (max-width:720px) {
-      .v[data-class=v] .vcards .vcard .vimg {
-        width: 2.5em;
-        height: 2.5em
-      }
-    }
-
-    .v[data-class=v] .vcards .vcard .vhead {
-      line-height: 1.5;
-      margin-top: 0
-    }
-
-    .v[data-class=v] .vcards .vcard .vhead .vnick {
-      position: relative;
-      font-size: .875em;
-      font-weight: 500;
-      margin-right: .875em;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block
-    }
-
-    .v[data-class=v] .vcards .vcard .vhead .vnick:hover {
-      color: #d7191a
-    }
-
-    .v[data-class=v] .vcards .vcard .vh {
-      overflow: hidden;
-      padding-bottom: .5em;
-      border-bottom: 1px dashed #f5f5f5
-    }
-
-    .v[data-class=v] .vcards .vcard .vh .vtime {
-      font-size: .75em;
-      margin-right: .875em
-    }
-
-    .v[data-class=v] .vcards .vcard .vh .vmeta {
-      line-height: 1;
-      position: relative
-    }
-
-    .v[data-class=v] .vcards .vcard .vh .vmeta .vat {
-      font-size: .8125em;
-      color: #ef2f11;
-      cursor: pointer;
-      float: right
-    }
-
-    .v[data-class=v] .vcards .vcard:last-child .vh {
-      border-bottom: none
-    }
-
-    .v[data-class=v] .vcards .vcard .vcontent {
-      word-wrap: break-word;
-      word-break: break-all;
-      font-size: .875em;
-      line-height: 2;
-      position: relative;
-      margin-bottom: .75em;
-      padding-top: .625em
-    }
-
-    .v[data-class=v] .vcards .vcard .vcontent.expand {
-      cursor: pointer;
-      max-height: 8em;
-      overflow: hidden
-    }
-
-    .v[data-class=v] .vcards .vcard .vcontent.expand:before {
-      display: block;
-      content: "";
-      position: absolute;
-      width: 100%;
-      left: 0;
-      top: 0;
-      bottom: 3.15em;
-      background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, .9)));
-      background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .9));
-      z-index: 999
-    }
-
-    .v[data-class=v] .vcards .vcard .vcontent.expand:after {
-      display: block;
-      content: attr(data-expand);
-      text-align: center;
-      color: #828586;
-      position: absolute;
-      width: 100%;
-      height: 3.15em;
-      line-height: 3.15em;
-      left: 0;
-      bottom: 0;
-      z-index: 999;
-      background: hsla(0, 0%, 100%, .9)
-    }
-
-    .v[data-class=v] .vcards .vcard .vquote {
-      padding-left: 1em;
-      border-left: 1px dashed hsla(0, 0%, 93%, .5)
-    }
-
-    .v[data-class=v] .vcards .vcard .vquote .vimg {
-      width: 2.225em;
-      height: 2.225em
-    }
-
-    .v[data-class=v] .vpage .vmore {
-      margin: 1em 0
-    }
-
-    .v[data-class=v] .clear {
-      content: "";
-      display: block;
-      clear: both
-    }
-
-    @-webkit-keyframes spin {
-      0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-      }
-
-      to {
-        -webkit-transform: rotate(1turn);
-        transform: rotate(1turn)
-      }
-    }
-
-    @keyframes spin {
-      0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-      }
-
-      to {
-        -webkit-transform: rotate(1turn);
-        transform: rotate(1turn)
-      }
-    }
-
-    @-webkit-keyframes pulse {
-      50% {
-        background: #dcdcdc
-      }
-    }
-
-    @keyframes pulse {
-      50% {
-        background: #dcdcdc
-      }
-    }
-
-    .v[data-class=v] .vspinner {
-      width: 22px;
-      height: 22px;
-      display: inline-block;
-      border: 6px double #a0a0a0;
-      border-top-color: transparent;
-      border-bottom-color: transparent;
-      border-radius: 50%;
-      -webkit-animation: spin 1s infinite linear;
-      animation: spin 1s infinite linear;
-      position: relative;
-      vertical-align: middle;
-      margin: 0 5px
-    }
-
-    .dark .v[data-class=v] .status-bar,
-    .dark .v[data-class=v] .veditor,
-    .dark .v[data-class=v] .vinput,
-    .dark .v[data-class=v] p,
-    .dark .v[data-class=v] pre code,
-    .night .v[data-class=v] .status-bar,
-    .night .v[data-class=v] .veditor,
-    .night .v[data-class=v] .vinput,
-    .night .v[data-class=v] p,
-    .night .v[data-class=v] pre code,
-    .theme__dark .v[data-class=v] .status-bar,
-    .theme__dark .v[data-class=v] .veditor,
-    .theme__dark .v[data-class=v] .vinput,
-    .theme__dark .v[data-class=v] p,
-    .theme__dark .v[data-class=v] pre code,
-    [data-theme=dark] .v[data-class=v] .status-bar,
-    [data-theme=dark] .v[data-class=v] .veditor,
-    [data-theme=dark] .v[data-class=v] .vinput,
-    [data-theme=dark] .v[data-class=v] p,
-    [data-theme=dark] .v[data-class=v] pre code {
-      color: #b2b2b5
-    }
-
-    .dark .v[data-class=v] .vsys,
-    .dark .v[data-class=v] .vtime,
-    .night .v[data-class=v] .vsys,
-    .night .v[data-class=v] .vtime,
-    .theme__dark .v[data-class=v] .vsys,
-    .theme__dark .v[data-class=v] .vtime,
-    [data-theme=dark] .v[data-class=v] .vsys,
-    [data-theme=dark] .v[data-class=v] .vtime {
-      color: #929298
-    }
-
-    .dark .v[data-class=v] code,
-    .dark .v[data-class=v] pre,
-    .dark .v[data-class=v] pre code,
-    .night .v[data-class=v] code,
-    .night .v[data-class=v] pre,
-    .night .v[data-class=v] pre code,
-    .theme__dark .v[data-class=v] code,
-    .theme__dark .v[data-class=v] pre,
-    .theme__dark .v[data-class=v] pre code,
-    [data-theme=dark] .v[data-class=v] code,
-    [data-theme=dark] .v[data-class=v] pre,
-    [data-theme=dark] .v[data-class=v] pre code {
-      color: #929298;
-      background-color: #151414
-    }
-
-    .dark .v[data-class=v] .vwrap,
-    .night .v[data-class=v] .vwrap,
-    .theme__dark .v[data-class=v] .vwrap,
-    [data-theme=dark] .v[data-class=v] .vwrap {
-      border-color: #b2b2b5
-    }
-
-    .dark .v[data-class=v] .vicon,
-    .night .v[data-class=v] .vicon,
-    .theme__dark .v[data-class=v] .vicon,
-    [data-theme=dark] .v[data-class=v] .vicon {
-      fill: #b2b2b5
-    }
-
-    .dark .v[data-class=v] .vicon.actived,
-    .night .v[data-class=v] .vicon.actived,
-    .theme__dark .v[data-class=v] .vicon.actived,
-    [data-theme=dark] .v[data-class=v] .vicon.actived {
-      fill: #66b1ff
-    }
-
-    .dark .v[data-class=v] .vbtn,
-    .night .v[data-class=v] .vbtn,
-    .theme__dark .v[data-class=v] .vbtn,
-    [data-theme=dark] .v[data-class=v] .vbtn {
-      color: #b2b2b5;
-      border-color: #b2b2b5
-    }
-
-    .dark .v[data-class=v] .vbtn:hover,
-    .night .v[data-class=v] .vbtn:hover,
-    .theme__dark .v[data-class=v] .vbtn:hover,
-    [data-theme=dark] .v[data-class=v] .vbtn:hover {
-      color: #66b1ff;
-      border-color: #66b1ff
-    }
-
-    .dark .v[data-class=v] a:hover,
-    .night .v[data-class=v] a:hover,
-    .theme__dark .v[data-class=v] a:hover,
-    [data-theme=dark] .v[data-class=v] a:hover {
-      color: #d7191a
-    }
-
-    .dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,
-    .night .v[data-class=v] .vcards .vcard .vcontent.expand:before,
-    .theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:before,
-    [data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:before {
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .7)));
-      background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7))
-    }
-
-    .dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,
-    .night .v[data-class=v] .vcards .vcard .vcontent.expand:after,
-    .theme__dark .v[data-class=v] .vcards .vcard .vcontent.expand:after,
-    [data-theme=dark] .v[data-class=v] .vcards .vcard .vcontent.expand:after {
-      background: rgba(0, 0, 0, .7)
-    }
-
-    @media (prefers-color-scheme:dark) {
-
-      .v[data-class=v] .status-bar,
-      .v[data-class=v] .veditor,
-      .v[data-class=v] .vinput,
-      .v[data-class=v] p,
-      .v[data-class=v] pre code {
-        color: #b2b2b5
-      }
-
-      .v[data-class=v] .vsys,
-      .v[data-class=v] .vtime {
-        color: #929298
-      }
-
-      .v[data-class=v] code,
-      .v[data-class=v] pre,
-      .v[data-class=v] pre code {
-        color: #929298;
-        background-color: #151414
-      }
-
-      .v[data-class=v] .vwrap {
-        border-color: #b2b2b5
-      }
-
-      .v[data-class=v] .vicon {
-        fill: #b2b2b5
-      }
-
-      .v[data-class=v] .vicon.actived {
-        fill: #66b1ff
-      }
-
-      .v[data-class=v] .vbtn {
-        color: #b2b2b5;
-        border-color: #b2b2b5
-      }
-
-      .v[data-class=v] .vbtn:hover {
-        color: #66b1ff;
-        border-color: #66b1ff
-      }
-
-      .v[data-class=v] a:hover {
-        color: #d7191a
-      }
-
-      .v[data-class=v] .vcards .vcard .vcontent.expand:before {
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .7)));
-        background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7))
-      }
-
-      .v[data-class=v] .vcards .vcard .vcontent.expand:after {
-        background: rgba(0, 0, 0, .7)
-      }
-    }
-  </style>
-  <link rel="prefetch" href="https://dasasdhba.github.io/categories/novel/">
+    <meta name="generator" content="Hexo 4.2.0">
+    <link rel="stylesheet" type="text/css" href="dat1/html.css">
 </head>
 
 <body>
-  <div id="mobile-sidebar">
-    <div id="menu_mask"></div>
-    <div id="mobile-sidebar-menus">
-      <div class="mobile_author_icon"><img class="avatar-img"
-          src="dat1/e08b8eb9c7a67229bd7f98f55cce0743.png"
-          onerror="onerror=null;src='undefined'" alt="avatar"></div>
-      <div class="mobile_post_data">
-        <div class="mobile_data_item is-center">
-          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/archives/">
-              <div class="headline">文章</div>
-              <div class="length_num">10</div>
-            </a></div>
+    <div id="mobile-sidebar">
+        <div id="menu_mask"></div>
+        <div id="mobile-sidebar-menus">
+            <div class="menus_items">
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives.html"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags.html"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories.html"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link.html"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about.html"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+            </div>
         </div>
-        <div class="mobile_data_item is-center">
-          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/tags/">
-              <div class="headline">标签</div>
-              <div class="length_num">4</div>
-            </a></div>
-        </div>
-        <div class="mobile_data_item is-center">
-          <div class="mobile_data_link"><a href="https://dasasdhba.github.io/categories/">
-              <div class="headline">分类</div>
-              <div class="length_num">4</div>
-            </a></div>
-        </div>
-      </div>
-      <hr>
-      <div class="menus_items">
-        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
-        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives.html"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
-        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags.html"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
-        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories.html"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
-        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link.html"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
-        <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about.html"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
-      </div>
-    </div>
-  </div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true"
-    style="transform: rotateZ(180deg); color: rgb(153, 169, 191); opacity: 1;"> </i>
-  <div id="sidebar" class="tocOpenPc" style="left: 0px;">
-    <div class="sidebar-toc">
-      <div class="sidebar-toc__title">目录</div>
-      <div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span
-          class="progress-num">19</span><span class="progress-percentage">%</span>
-        <div class="sidebar-toc__progress-bar" style="width: 19%;"> </div>
-      </div>
-      <div class="sidebar-toc__content">
-        <ol class="toc">
-          <li class="toc-item toc-level-1"><a class="toc-link" href="#振翅之时"><span class="toc-text">振翅之时</span></a>
-            <ol class="toc-child" style="">
-              <li class="toc-item toc-level-2"><a class="toc-link active" href="#日语版"><span
+    </div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true" style="transform: rotateZ(180deg); color: rgb(153, 169, 191); opacity: 1;"> </i>
+    <div id="sidebar" class="tocOpenPc" style="left: 0px;">
+        <div class="sidebar-toc">
+            <div class="sidebar-toc__title">目录</div>
+            <div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">19</span><span class="progress-percentage">%</span>
+                <div class="sidebar-toc__progress-bar" style="width: 19%;"> </div>
+            </div>
+            <div class="sidebar-toc__content">
+                <ol class="toc">
+                    <li class="toc-item toc-level-1"><a class="toc-link" href="#振翅之时"><span class="toc-text">振翅之时</span></a>
+                        <ol class="toc-child" style="">
+                            <li class="toc-item toc-level-2"><a class="toc-link active" href="#日语版"><span
                     class="toc-text">日语版</span></a></li>
-              <li class="toc-item toc-level-2"><a class="toc-link active" href="#中文版"><span
+                            <li class="toc-item toc-level-2"><a class="toc-link active" href="#中文版"><span
                     class="toc-text">中文版</span></a></li>
-              <li class="toc-item toc-level-2"><a class="toc-link active" href="#关于"><span
+                            <li class="toc-item toc-level-2"><a class="toc-link active" href="#关于"><span
                     class="toc-text">关于</span></a></li>
-          </li>
-        </ol>
-      </div>
-    </div>
-  </div>
-  <div id="body-wrap" style="padding-left: 300px;">
-    <div id="web_bg" data-type="photo"></div>
-    <div class="post-bg" id="nav"
-      style="background-image: url(http://i0.hdslb.com/bfs/album/ec5d888f599b41927bc64f073a97c12be9d6de9c.png)">
-      <div id="page-header" style="opacity: 1; animation: 1s ease 0s 1 normal none running headerNoOpacity;"
-        class="fixed"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name"
-            href="https://lonely-programmer.github.io/kochi/">東風神社</a></span><span class="pull_right menus"
-          style="padding-right: 300px;">
-          <div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span>
-                搜索</span></a></div>
-          <div class="menus_items">
-            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
-            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives.html"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
-            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags.html"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
-            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories.html"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
-            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link.html"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
-            <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about.html"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
-          </div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw"
-                aria-hidden="true"></i></a></span>
-        </span></div>
-      <div id="post-info">
-        <div id="post-title">
-          <div class="posttitle">振翅之时</div>
+                    </li>
+                    </ol>
+            </div>
         </div>
-        <div id="post-meta">
-          <div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created"
+    </div>
+    <div id="body-wrap" style="padding-left: 300px;">
+        <div id="web_bg" data-type="photo"></div>
+        <div class="post-bg" id="nav" style="background-image: url(http://i0.hdslb.com/bfs/album/ec5d888f599b41927bc64f073a97c12be9d6de9c.png)">
+            <div id="page-header" style="opacity: 1; animation: 1s ease 0s 1 normal none running headerNoOpacity;" class="fixed"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name"
+            href="https://lonely-programmer.github.io/kochi/">東風神社</a></span><span class="pull_right menus" style="padding-right: 300px;">
+          <div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span>
+                搜索</span></a>
+            </div>
+            <div class="menus_items">
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/"><i class="fa-fw fa fa-home"></i><span>主页</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/archives.html"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/tags.html"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/categories.html"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/link.html"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div>
+                <div class="menus_item"><a class="site-page" href="https://lonely-programmer.github.io/kochi/about.html"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+            </div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw"
+                aria-hidden="true"></i></a></span>
+            </span>
+        </div>
+        <div id="post-info">
+            <div id="post-title">
+                <div class="posttitle">振翅之时</div>
+            </div>
+            <div id="post-meta">
+                <div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created"
                 title="发表于 2020-04-23 21:33:06"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于
                 2020-04-23</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated"
                 title="更新于 2020-04-29 23:09:51"><i class="fa fa-history" aria-hidden="true"></i> 更新于
                 2020-04-29</span></time><span class="post-meta__categories"><span
-                class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a
-                class="post-meta__categories"
-                href="https://lonely-programmer.github.io/categories.html#story">故事</a></span></div>
-          <div class="meta-secondline"> </div>
+                class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="https://lonely-programmer.github.io/categories.html#story">故事</a></span>
+                </div>
+                <div class="meta-secondline"> </div>
 
+            </div>
         </div>
-      </div>
     </div>
     <main class="layout_post" id="content-inner">
-      <article id="post">
-        <div id="article-container">
-          <h1 id="振翅之时"><a href="#振翅之时" class="headerlink" title="振翅之时"></a>振翅之时</h1>
-          <h2 id="日语版"><a href="#日语版" class="headerlink" title="日语版"></a>日语版</h2>
-          <p><strong>羽ばたく時</strong></p>
-          <p>　年の瀬、みんなが家に帰った。一人きりで働いているみかさん。</p>
-          <p>　窓から外を眺めると、雪で真っ白になった世界、それに、急いで歩いている人々の姿が見える。どんなに家に帰りたいかと思うけれども、やっぱり仕事がもっと大切なので、家族と会うのも難しくなる。とはいえ、自分の店だから残業せざるを得ないわけではない。ただこの仕事は大学時代からの夢だから、いつまでも頑張りたいと思う。</p>
-          <p>　ブンブンとスマホが鳴っている。お母さんからのメッセージだった。</p>
-          <p>　「魔法瓶にお湯を注いたか。カップを洗ったか。」このような質問は毎日の定番である。</p>
-          <p>　「注いた。洗った。」</p>
-          <p>　「じゃ、夜は早くお休みなさい。」</p>
-          <p>　「わかった、わかった。」</p>
-          <p>　お母さんは相変わらず同じことを繰り返して話すことが好きだね。</p>
-          <p>　家族といえば、お父さんとお母さんの優しい目線が目に浮かぶ。</p>
-          <p>　大学を卒業したあと、店を営むことにした。もうすぐ家を離れる自分は不安になっちゃったら、お母さんに「志へ前向きに行きなさい。家を未練がましくしないでください。」と言われた。</p>
-          <p>　とうとう最後の日になった。お母さんは早く起きて晩ご飯の用意をした。あの日の記憶がぼんやりになったけれども、いろいろ話した両親ととりわけおいしい晩ご飯をはっきりと覚えている。</p>
-          <p>　夜、両親が駅で見送ってくれた。微笑んでいた両親に肌寒い秋の風。「行ってきまーす。」「いってらっしゃーい。」そして、電車に乗った。電車の窓から振り返ると、ゆっくりと歩いている老けて見える二人の後ろ姿だった。それを見ている自分はなんだか泣きそうになっちゃった。なんで両親は笑えるんだろう。</p>
-          <p>　それからおよそ四ヶ月経った。自分はもうその夜の帳が下りたら寂しくてたまらなくてお母さんに電話をかけなければならない子供ではない。ただ、やっぱり家への思いはあっさりとほっておけるものでもない。</p>
-          <p>　いろいろ思ったね。あっという間に今日の仕事が終わった。このように落ち込んでいくより、海へ行って初日の出を待ったほうがいいだろう。机を片付けてから、店から出る。</p>
-          <p>　祝日の電車には利用客がほとんどいない。ガタンゴトンの音を聞きながら、外の景色をじっと見つめている。</p>
-          <p>　「東川。東川。ご乗車ありがとうございます。」</p>
-          <p>　ドアが開くと、少女の姿が現れる。</p>
-          <p>　「あのーすみません。みかさんですか。」</p>
-          <p>　「はい、そうですが、あなたは…」</p>
-          <p>　「えっ、もう覚えないの？この前ともに温泉に行ったことがあるよ。」</p>
-          <p>　「あっ、結界の管理者さんですか。」</p>
-          <p>　「そうそう。忘れられなくてよかった。偶然だな、大晦日に電車で会える。」</p>
-          <p>　「もう少しで忘れるところだった。ちょっと恥ずかしいね。ところで、どこに行くつもり？」</p>
-          <p>　「金山海岸駅。渚で初日の出を見に行く。冬休み期間なので、友達がみんな家に帰った。仕事もないし、友達もいなくて、どこかに行きたくなった。」</p>
-          <p>　「えっ？私も。一人暮らしの生活はつらいだから、海でも見たくなった。じゃ、一緒に行かない？」</p>
-          <p>　「オーケー。今日は本当についてる。」</p>
-          <p>　「いや、結界の管理者さんがいてくれるのは私の光栄だと思う。」</p>
-          <p>　「もう。お世辞なんて言わないで。友達だから。」</p>
-          <p>　「お世辞じゃなくて、本音だよ。」</p>
-          <p>　友達としゃべると時間の流れがずいぶん早くなりそうだ。電車を降りて駅のガラスから外を見ると、海の景色がすべて見渡せる。</p>
-          <p>　「美しいー」と二人が口を揃えて言って外に走り始める。紺色の夜空と海、きらきら光っている星たち、優しい海の波、塩の匂いがある潮風、夢中になった二人。</p>
-          <p>　冬は温かい鍋に限る。二人はあたりの小屋で食べたり話したりしている。</p>
-          <p>　「仕事で家に帰れなくて最近ちょっと悩ましい。両親に会いたい。」</p>
-          <p>　「家は人にとって一番大切なものだと思う。暇であれば家に帰って。結界の管理者なんてじゃないから。」</p>
-          <p>　「結界の管理者さんはいつも一人で年越しするの？」</p>
-          <p>　「そうだ。18歳からずっと。」</p>
-          <p>　「結界の事務で家に帰れないからね？」</p>
-          <p>　「そう言ってもいいけど。実は、結界の管理者について古い伝統がある。娘を立派な大人にするために、娘が結界の管理権限を受け継ぐと、母は立ち去る。今年は５年目だよ。」</p>
-          <p>　「ごめんなさい、悲しいことを…」</p>
-          <p>　「大丈夫、もう慣れたよ。平日は友達がいてくれる。ただ祝日だけがちょっと…」</p>
-          <p>　「孤独を感じたら、結界の管理者さんはどうする？」</p>
-          <p>　「東風神社の巫女さん、知ってる？小さい頃、母とともに東風神社を参拝した時、12歳の彼女が神社のすべての事務ができることを感心した。それから、彼女のような人になるのを目指すことにした。」</p>
-          <p>　「すごいね。」</p>
-          <p>　「たぶん時間が経つとよくなるわ。何事も最初は難しい。みかさんも、私も、巫女さんもそうだろう。当時の私がどうやって焦る日々を過ごして困難を乗り越えたことをよく覚えていないけれど、母のように結界をうまく守って世界の未来を切り拓くという古き夢を今までも、いつまでも心に刻んでいる。諦めさえしなければ、やがて簡単になるべきだと思う。みかさんも夢を持っているね。」</p>
-          <p>　「はい。コード使いになって自分の知識で人々を助けるという夢だ。だから悩ましいことを直面している人を一人だけ助けても、楽しさは心から湧く。」</p>
-          <p>　「いいね。もしそれを推進力にしたら、どんなことがあっても中途半端にしておきはしなくなる。夢の彼方へたどり着くことができるのを信じて。頑張ってね。」</p>
-          <p>　「ありがとう。これから結界の管理者さんを目指して頑張りたいんだ。」</p>
-          <p>　「そう言われて嬉しいね。みかさんもいつか目指されることができるよ。」</p>
-          <p>　静かな夜に、波の音と二人の声しか聞かない。やがて夜更けになった。二人はつい寝ちゃった。</p>
-          <p>　朝、日差しが部屋に入り込んだ。だんだん昇っている朝日が光を放つ。その光が空を照らして海に映る。どんなに素晴らしい景色か。今年の初日の出は家族と一緒に見ることができないけど、新しいものを学びそうだ。</p>
-          <p>　「じゃねー縁があればまた会うよ。」</p>
-          <p>　「はい。じゃ、気をつけて帰るんだよ。」</p>
-          <p>　　数日後、仕事が終わったみかさんは家に帰った。お父さんとお母さんがとっくに駅で迎えてきた。家に帰る途中電話を何回もかけた。両親も自分に会いたいのに、それについては何も言わなかった。　</p>
-          <p>　「ただいまー」</p>
-          <p>　「おかえりなさいー」</p>
-          <p>　錯覚だろうか、冬の風も寒くなくなりそうだ。家にいる一週間、両親はまたいろいろ話したり、おいしいご飯を用意したりするだろう。ずっと変わらないね。でも変わったこともありそうだ。また家を離れる時、そんなに悩ましくならない。なぜならば、心の奥には、大学時代からの夢があって、それに、あの結界の管理者さんと、ずっと支えてくれる両親がいるから。</p>
-          <br/>
-          <p>（終わり）</p>
-          <br/>
-          
-          <h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2>
-          <p><strong>振翅之时</strong></p>
-          <p>　　年末，大家都回家了。美香还在这里独自一人工作着。</p>
-          <p>　　透过窗户向外望去，可以看到雪天银装素裹的世界，还有行色匆匆的人们。无论再怎么想家，工作还是最重要的，于是和家人团聚也变成了一种奢望。虽说如此，因为这是自己开的店，所以并不是非加班不可。只是，这个工作是大学时代以来的梦想，所以无论什么时候都想做到最好。</p>
-          <p>　　“嗡——嗡——”手机响了，原来是妈妈给自己发来了消息。</p>
-          <p>　　“热水瓶里倒水了吗？杯子洗了吗？”这是每天必问的问题。</p>
-          <p>　　“倒了，洗了。”</p>
-          <p>　　“那么，晚上早点休息。”</p>
-          <p>　　“知道了，知道了。”</p>
-          <p>　　妈妈还是老样子，喜欢反复地说同一件事情。</p>
-          <p>　　说到自己的家，爸爸妈妈温柔的目光就浮现在眼前。</p>
-          <p>　　大学毕业以后，做出了创业的决定。马上就要离开家的自己感到不安的时候，妈妈总会对自己说：“朝着自己的目标积极地努力，不要太舍不得家。”</p>
-          <p>　　终于到了最后一天。这一天妈妈早早地就起来准备晚饭了。那天的记忆已经渐渐模糊，但父母唠唠叨叨说了很多，以及那天的晚饭特别丰盛的场景，却清晰地记得。</p>
-          <p>　　晚上，父母到车站送自己。那一刻，父母的微笑和微凉的秋风。“我出发了。”“一路小心。”然后，自己坐上了电车。透过车窗回头，只见慢慢行走着的、略显苍老的父母的背影。看到这个情景，自己的鼻子酸酸的。为什么父母还能笑得出来呢？</p>
-          <p>　　之后过了四个月。自己已经不像原来那样，只要夜幕降临就会感觉非常孤独，像孩子一样，忍不住要给家里打电话。只是，对家的思念也不是什么说放下就可以轻易放下的东西。</p>
-          <p>　　	胡思乱想了很多，不知不觉就到了打烊的时间。与其像这样失落下去，不如到海边等待新年的日出吧。一边这么想着，一边收拾了桌上的东西，离开了小店。假期的电车非常空，几乎没有人。自己一边听着铁轨咯噔咯噔的声音，一边盯着窗外的景色。</p>
-          <p>　　	“东川站到了。感谢乘坐本列车。”</p>
-          <p>　　车门打开后，一个少女出现了。</p>
-          <p>　　“那个——不好意思，请问是美香吗？”</p>
-          <p>　　“是的，请问你是……”</p>
-          <p>　　“欸，已经不记得了吗？我们之前可是一起去泡过温泉的。”</p>
-          <p>　　“啊，是结界的管理者吗？”</p>
-          <p>　　“对对，没有忘记真是太好了。今天真是巧啊，大年三十还能在电车上遇到。”</p>
-          <p>　　	“差点忘记了，实在是太不好意思了。对了，你这是要去哪里？”</p>
-          <p>　　	“金山海岸站，到海边看新年的日出。现在是寒假，朋友们都回家了。现在既没有活可以干，又没有朋友和自己一起玩，所以就想着出去了。”</p>
-          <p>　　“欸？我也是。一个人实在是太无聊了，所以想到海边走一走。那么我们一起去怎么样？”</p>
-          <p>　　“OK。今天实在是太走运了。”</p>
-          <p>　　	“不，结界的管理者陪我出去玩是我的荣幸。”</p>
-          <p>　　	“真是的，别说这些客套话。我们是朋友嘛。”</p>
-          <p>　　“不是客套话，我本来就是这么想的。”</p>
-          <p>　　“似乎只要和朋友摆一摆龙门阵时间就会过得特别快。下了电车以后，透过站台的玻璃向外看去，大海的景色尽收眼底。”</p>
-          <p>　　“真美啊——”两个人一边异口同声地说着，一边迫不及待地向外跑去。深蓝色的夜空与大海，闪烁着的繁星，轻轻的波浪，带着海盐气息的潮风，两人不禁沉醉其中。</p>
-          <p>　　冬天吃上一碗热气腾腾的火锅是最好的。两人在附近的小屋里边吃边聊。</p>
-          <p>　　“由于工作的原因不能回家，最近感觉有点心烦。好想家啊。”</p>
-          <p>　　“我觉得家是一个人最重要的宝藏。如果有空的话还是常回家看看吧，毕竟你也不是结界的管理者。”</p>
-          <p>　　“你一直都是一个人过年的吗？”</p>
-          <p>　　“是这样的，从18岁开始就一直是这样的。”</p>
-          <p>　　“是因为结界的事务所以不能回家吧？”</p>
-          <p>　　“可以这么说吧。事实上，有关结界的管理者，有一个古老的传统。为了让女儿锻炼成一个成熟的人，一旦她接管了结界的管理权限，母亲就要离开。今年已经是我独自生活的第5年了。”</p>
-          <p>　　“对不起啊，提到了伤心的事情。”</p>
-          <p>　　“没关系啦，我已经习惯了这样的生活。平时还是有朋友陪着我的，不过一到逢年过节就有点寂寞了。”</p>
-          <p>　　“感到孤独的时候，你都是怎么过来的呢？”</p>
-          <p>　　“你知道东风神社的巫女吗？小时候妈妈带我去的时候，那时12岁的她就可以独自处理神社全部的事务了，我特别敬佩她。从那以后，我就把她作为了榜样。”</p>
-          <p>　　“好厉害啊。”</p>
-          <p>　　“可能随着时间的流逝一切都自然会变好吧，毕竟万事开头难嘛。你，我，还有巫女都是这样的吧。当时的我是怎么度过那些煎熬的日子，克服各种困难，我已经记不太清了。不过，像妈妈一样把结界维护好，开拓崭新的未来，这个古老的梦想，直到今天，直到永远，我都会铭记在心。只要不放弃，一切都会慢慢简单起来的吧。你的内心应该也有梦想吧？”</p>
-          <p>　　“是的。成为代码使，用自己的知识帮助人们的梦想。所以，我只要帮助了一个被烦恼困扰的人，快乐的感觉就会从心底涌现出来。”</p>
-          <p>　　	“真好啊。如果把这个梦想作为动力，那么无论遇到什么也不会半途而废了。请坚信一定能够抵达梦想的彼岸。加油吧。”</p>
-          <p>　　“谢谢。从今往后我也会把你作为榜样的。”</p>
-          <p>　　“被人这么说好开心。有一天你也一定会成为别人的榜样的。”</p>
-          <p>　　“寂静的夜，只能听到波浪和两人说话的声音。很快到了深夜，两人不知不觉就睡着了。”</p>
-          <p>　　“早上，阳光照射进了房间里。缓缓升起的太阳发出阵阵光芒。那股光芒照亮了天空，倒映在海面上。真是壮丽的景色啊。今年，虽然没能和家人一起欣赏新年的日出，但是却学到了别的东西。”</p>
-          <p>　　“再见——有缘再会。”</p>
-          <p>　　“好的，回去的时候注意安全。”</p>
-          <p>　　“几天后，完成工作的美香回到了家，父母早早地就在车站迎接自己了。回家的途中父母给自己打了好几个电话。父母明明也那么想念自己，却什么也没有说。”</p>
-          <p>　　“我回家了——”</p>
-          <p>　　“欢迎回家——”</p>
-          <p>　　不知道是不是错觉，冬天的风好像也不冷了。回到家里的一个星期，父母又会一边唠唠叨叨，一边准备丰盛的饭菜吧，这点从来没有变过啊。不过也有改变了的东西。到了再次离开家的时候，自己不会再那么烦恼了。因为，自己的内心深处，怀揣着大学时代以来的梦想，还有，那位结界的管理者，以及一直在背后支持着自己的父母。</p>
-          <br/>
-          <p>（完）</p>
-          <br/>
+        <article id="post">
+            <div id="article-container">
+                <h1 id="振翅之时">
+                    <a href="#振翅之时" class="headerlink" title="振翅之时"></a>振翅之时</h1>
+                <h2 id="日语版">
+                    <a href="#日语版" class="headerlink" title="日语版"></a>日语版</h2>
+                <p><strong>羽ばたく時</strong></p>
+                <p>　年の瀬、みんなが家に帰った。一人きりで働いているみかさん。</p>
+                <p>　窓から外を眺めると、雪で真っ白になった世界、それに、急いで歩いている人々の姿が見える。どんなに家に帰りたいかと思うけれども、やっぱり仕事がもっと大切なので、家族と会うのも難しくなる。とはいえ、自分の店だから残業せざるを得ないわけではない。ただこの仕事は大学時代からの夢だから、いつまでも頑張りたいと思う。</p>
+                <p>　ブンブンとスマホが鳴っている。お母さんからのメッセージだった。</p>
+                <p>　「魔法瓶にお湯を注いたか。カップを洗ったか。」このような質問は毎日の定番である。</p>
+                <p>　「注いた。洗った。」</p>
+                <p>　「じゃ、夜は早くお休みなさい。」</p>
+                <p>　「わかった、わかった。」</p>
+                <p>　お母さんは相変わらず同じことを繰り返して話すことが好きだね。</p>
+                <p>　家族といえば、お父さんとお母さんの優しい目線が目に浮かぶ。</p>
+                <p>　大学を卒業したあと、店を営むことにした。もうすぐ家を離れる自分は不安になっちゃったら、お母さんに「志へ前向きに行きなさい。家を未練がましくしないでください。」と言われた。</p>
+                <p>　とうとう最後の日になった。お母さんは早く起きて晩ご飯の用意をした。あの日の記憶がぼんやりになったけれども、いろいろ話した両親ととりわけおいしい晩ご飯をはっきりと覚えている。</p>
+                <p>　夜、両親が駅で見送ってくれた。微笑んでいた両親に肌寒い秋の風。「行ってきまーす。」「いってらっしゃーい。」そして、電車に乗った。電車の窓から振り返ると、ゆっくりと歩いている老けて見える二人の後ろ姿だった。それを見ている自分はなんだか泣きそうになっちゃった。なんで両親は笑えるんだろう。</p>
+                <p>　それからおよそ四ヶ月経った。自分はもうその夜の帳が下りたら寂しくてたまらなくてお母さんに電話をかけなければならない子供ではない。ただ、やっぱり家への思いはあっさりとほっておけるものでもない。</p>
+                <p>　いろいろ思ったね。あっという間に今日の仕事が終わった。このように落ち込んでいくより、海へ行って初日の出を待ったほうがいいだろう。机を片付けてから、店から出る。</p>
+                <p>　祝日の電車には利用客がほとんどいない。ガタンゴトンの音を聞きながら、外の景色をじっと見つめている。</p>
+                <p>　「東川。東川。ご乗車ありがとうございます。」</p>
+                <p>　ドアが開くと、少女の姿が現れる。</p>
+                <p>　「あのーすみません。みかさんですか。」</p>
+                <p>　「はい、そうですが、あなたは…」</p>
+                <p>　「えっ、もう覚えないの？この前ともに温泉に行ったことがあるよ。」</p>
+                <p>　「あっ、結界の管理者さんですか。」</p>
+                <p>　「そうそう。忘れられなくてよかった。偶然だな、大晦日に電車で会える。」</p>
+                <p>　「もう少しで忘れるところだった。ちょっと恥ずかしいね。ところで、どこに行くつもり？」</p>
+                <p>　「金山海岸駅。渚で初日の出を見に行く。冬休み期間なので、友達がみんな家に帰った。仕事もないし、友達もいなくて、どこかに行きたくなった。」</p>
+                <p>　「えっ？私も。一人暮らしの生活はつらいだから、海でも見たくなった。じゃ、一緒に行かない？」</p>
+                <p>　「オーケー。今日は本当についてる。」</p>
+                <p>　「いや、結界の管理者さんがいてくれるのは私の光栄だと思う。」</p>
+                <p>　「もう。お世辞なんて言わないで。友達だから。」</p>
+                <p>　「お世辞じゃなくて、本音だよ。」</p>
+                <p>　友達としゃべると時間の流れがずいぶん早くなりそうだ。電車を降りて駅のガラスから外を見ると、海の景色がすべて見渡せる。</p>
+                <p>　「美しいー」と二人が口を揃えて言って外に走り始める。紺色の夜空と海、きらきら光っている星たち、優しい海の波、塩の匂いがある潮風、夢中になった二人。</p>
+                <p>　冬は温かい鍋に限る。二人はあたりの小屋で食べたり話したりしている。</p>
+                <p>　「仕事で家に帰れなくて最近ちょっと悩ましい。両親に会いたい。」</p>
+                <p>　「家は人にとって一番大切なものだと思う。暇であれば家に帰って。結界の管理者なんてじゃないから。」</p>
+                <p>　「結界の管理者さんはいつも一人で年越しするの？」</p>
+                <p>　「そうだ。18歳からずっと。」</p>
+                <p>　「結界の事務で家に帰れないからね？」</p>
+                <p>　「そう言ってもいいけど。実は、結界の管理者について古い伝統がある。娘を立派な大人にするために、娘が結界の管理権限を受け継ぐと、母は立ち去る。今年は５年目だよ。」</p>
+                <p>　「ごめんなさい、悲しいことを…」</p>
+                <p>　「大丈夫、もう慣れたよ。平日は友達がいてくれる。ただ祝日だけがちょっと…」</p>
+                <p>　「孤独を感じたら、結界の管理者さんはどうする？」</p>
+                <p>　「東風神社の巫女さん、知ってる？小さい頃、母とともに東風神社を参拝した時、12歳の彼女が神社のすべての事務ができることを感心した。それから、彼女のような人になるのを目指すことにした。」</p>
+                <p>　「すごいね。」</p>
+                <p>　「たぶん時間が経つとよくなるわ。何事も最初は難しい。みかさんも、私も、巫女さんもそうだろう。当時の私がどうやって焦る日々を過ごして困難を乗り越えたことをよく覚えていないけれど、母のように結界をうまく守って世界の未来を切り拓くという古き夢を今までも、いつまでも心に刻んでいる。諦めさえしなければ、やがて簡単になるべきだと思う。みかさんも夢を持っているね。」</p>
+                <p>　「はい。コード使いになって自分の知識で人々を助けるという夢だ。だから悩ましいことを直面している人を一人だけ助けても、楽しさは心から湧く。」</p>
+                <p>　「いいね。もしそれを推進力にしたら、どんなことがあっても中途半端にしておきはしなくなる。夢の彼方へたどり着くことができるのを信じて。頑張ってね。」</p>
+                <p>　「ありがとう。これから結界の管理者さんを目指して頑張りたいんだ。」</p>
+                <p>　「そう言われて嬉しいね。みかさんもいつか目指されることができるよ。」</p>
+                <p>　静かな夜に、波の音と二人の声しか聞かない。やがて夜更けになった。二人はつい寝ちゃった。</p>
+                <p>　朝、日差しが部屋に入り込んだ。だんだん昇っている朝日が光を放つ。その光が空を照らして海に映る。どんなに素晴らしい景色か。今年の初日の出は家族と一緒に見ることができないけど、新しいものを学びそうだ。</p>
+                <p>　「じゃねー縁があればまた会うよ。」</p>
+                <p>　「はい。じゃ、気をつけて帰るんだよ。」</p>
+                <p>　　数日後、仕事が終わったみかさんは家に帰った。お父さんとお母さんがとっくに駅で迎えてきた。家に帰る途中電話を何回もかけた。両親も自分に会いたいのに、それについては何も言わなかった。　</p>
+                <p>　「ただいまー」</p>
+                <p>　「おかえりなさいー」</p>
+                <p>　錯覚だろうか、冬の風も寒くなくなりそうだ。家にいる一週間、両親はまたいろいろ話したり、おいしいご飯を用意したりするだろう。ずっと変わらないね。でも変わったこともありそうだ。また家を離れる時、そんなに悩ましくならない。なぜならば、心の奥には、大学時代からの夢があって、それに、あの結界の管理者さんと、ずっと支えてくれる両親がいるから。</p>
+                <br/>
+                <p>（終わり）</p>
+                <br/>
 
-          <h2 id="关于"><a href="关于" class="headerlink" title="关于"></a>关于</h2>
-          <p><strong>振翅之时</strong></p>
-          <p><strong>羽ばたく時</strong></p>
-          <br/>
-          <p><strong>总策划：</strong></p>
-          <p>木村　冴</p>
-          <br/>
-          <p><strong>演员表：</strong></p>
-          <p>伊倉　みか　　　　　初明　羽衣　　　　みかの両親</p>
-          <br/>
-          <p><strong>素材整理：</strong></p>
-          <p>木村　冴</p>
-          <br/>
-          <br/>
-          <p>感谢阅读！</p>
-          <p>読んでくれてありがとう！</p>
-          <br/>
+                <h2 id="中文版">
+                    <a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2>
+                <p><strong>振翅之时</strong></p>
+                <p>　　年末，大家都回家了。美香还在这里独自一人工作着。</p>
+                <p>　　透过窗户向外望去，可以看到雪天银装素裹的世界，还有行色匆匆的人们。无论再怎么想家，工作还是最重要的，于是和家人团聚也变成了一种奢望。虽说如此，因为这是自己开的店，所以并不是非加班不可。只是，这个工作是大学时代以来的梦想，所以无论什么时候都想做到最好。</p>
+                <p>　　“嗡——嗡——”手机响了，原来是妈妈给自己发来了消息。</p>
+                <p>　　“热水瓶里倒水了吗？杯子洗了吗？”这是每天必问的问题。</p>
+                <p>　　“倒了，洗了。”</p>
+                <p>　　“那么，晚上早点休息。”</p>
+                <p>　　“知道了，知道了。”</p>
+                <p>　　妈妈还是老样子，喜欢反复地说同一件事情。</p>
+                <p>　　说到自己的家，爸爸妈妈温柔的目光就浮现在眼前。</p>
+                <p>　　大学毕业以后，做出了创业的决定。马上就要离开家的自己感到不安的时候，妈妈总会对自己说：“朝着自己的目标积极地努力，不要太舍不得家。”</p>
+                <p>　　终于到了最后一天。这一天妈妈早早地就起来准备晚饭了。那天的记忆已经渐渐模糊，但父母唠唠叨叨说了很多，以及那天的晚饭特别丰盛的场景，却清晰地记得。</p>
+                <p>　　晚上，父母到车站送自己。那一刻，父母的微笑和微凉的秋风。“我出发了。”“一路小心。”然后，自己坐上了电车。透过车窗回头，只见慢慢行走着的、略显苍老的父母的背影。看到这个情景，自己的鼻子酸酸的。为什么父母还能笑得出来呢？</p>
+                <p>　　之后过了四个月。自己已经不像原来那样，只要夜幕降临就会感觉非常孤独，像孩子一样，忍不住要给家里打电话。只是，对家的思念也不是什么说放下就可以轻易放下的东西。</p>
+                <p>　　 胡思乱想了很多，不知不觉就到了打烊的时间。与其像这样失落下去，不如到海边等待新年的日出吧。一边这么想着，一边收拾了桌上的东西，离开了小店。假期的电车非常空，几乎没有人。自己一边听着铁轨咯噔咯噔的声音，一边盯着窗外的景色。</p>
+                <p>　　 “东川站到了。感谢乘坐本列车。”</p>
+                <p>　　车门打开后，一个少女出现了。</p>
+                <p>　　“那个——不好意思，请问是美香吗？”</p>
+                <p>　　“是的，请问你是……”</p>
+                <p>　　“欸，已经不记得了吗？我们之前可是一起去泡过温泉的。”</p>
+                <p>　　“啊，是结界的管理者吗？”</p>
+                <p>　　“对对，没有忘记真是太好了。今天真是巧啊，大年三十还能在电车上遇到。”</p>
+                <p>　　 “差点忘记了，实在是太不好意思了。对了，你这是要去哪里？”</p>
+                <p>　　 “金山海岸站，到海边看新年的日出。现在是寒假，朋友们都回家了。现在既没有活可以干，又没有朋友和自己一起玩，所以就想着出去了。”</p>
+                <p>　　“欸？我也是。一个人实在是太无聊了，所以想到海边走一走。那么我们一起去怎么样？”</p>
+                <p>　　“OK。今天实在是太走运了。”</p>
+                <p>　　 “不，结界的管理者陪我出去玩是我的荣幸。”</p>
+                <p>　　 “真是的，别说这些客套话。我们是朋友嘛。”</p>
+                <p>　　“不是客套话，我本来就是这么想的。”</p>
+                <p>　　“似乎只要和朋友摆一摆龙门阵时间就会过得特别快。下了电车以后，透过站台的玻璃向外看去，大海的景色尽收眼底。”</p>
+                <p>　　“真美啊——”两个人一边异口同声地说着，一边迫不及待地向外跑去。深蓝色的夜空与大海，闪烁着的繁星，轻轻的波浪，带着海盐气息的潮风，两人不禁沉醉其中。</p>
+                <p>　　冬天吃上一碗热气腾腾的火锅是最好的。两人在附近的小屋里边吃边聊。</p>
+                <p>　　“由于工作的原因不能回家，最近感觉有点心烦。好想家啊。”</p>
+                <p>　　“我觉得家是一个人最重要的宝藏。如果有空的话还是常回家看看吧，毕竟你也不是结界的管理者。”</p>
+                <p>　　“你一直都是一个人过年的吗？”</p>
+                <p>　　“是这样的，从18岁开始就一直是这样的。”</p>
+                <p>　　“是因为结界的事务所以不能回家吧？”</p>
+                <p>　　“可以这么说吧。事实上，有关结界的管理者，有一个古老的传统。为了让女儿锻炼成一个成熟的人，一旦她接管了结界的管理权限，母亲就要离开。今年已经是我独自生活的第5年了。”</p>
+                <p>　　“对不起啊，提到了伤心的事情。”</p>
+                <p>　　“没关系啦，我已经习惯了这样的生活。平时还是有朋友陪着我的，不过一到逢年过节就有点寂寞了。”</p>
+                <p>　　“感到孤独的时候，你都是怎么过来的呢？”</p>
+                <p>　　“你知道东风神社的巫女吗？小时候妈妈带我去的时候，那时12岁的她就可以独自处理神社全部的事务了，我特别敬佩她。从那以后，我就把她作为了榜样。”</p>
+                <p>　　“好厉害啊。”</p>
+                <p>　　“可能随着时间的流逝一切都自然会变好吧，毕竟万事开头难嘛。你，我，还有巫女都是这样的吧。当时的我是怎么度过那些煎熬的日子，克服各种困难，我已经记不太清了。不过，像妈妈一样把结界维护好，开拓崭新的未来，这个古老的梦想，直到今天，直到永远，我都会铭记在心。只要不放弃，一切都会慢慢简单起来的吧。你的内心应该也有梦想吧？”</p>
+                <p>　　“是的。成为代码使，用自己的知识帮助人们的梦想。所以，我只要帮助了一个被烦恼困扰的人，快乐的感觉就会从心底涌现出来。”</p>
+                <p>　　 “真好啊。如果把这个梦想作为动力，那么无论遇到什么也不会半途而废了。请坚信一定能够抵达梦想的彼岸。加油吧。”</p>
+                <p>　　“谢谢。从今往后我也会把你作为榜样的。”</p>
+                <p>　　“被人这么说好开心。有一天你也一定会成为别人的榜样的。”</p>
+                <p>　　“寂静的夜，只能听到波浪和两人说话的声音。很快到了深夜，两人不知不觉就睡着了。”</p>
+                <p>　　“早上，阳光照射进了房间里。缓缓升起的太阳发出阵阵光芒。那股光芒照亮了天空，倒映在海面上。真是壮丽的景色啊。今年，虽然没能和家人一起欣赏新年的日出，但是却学到了别的东西。”</p>
+                <p>　　“再见——有缘再会。”</p>
+                <p>　　“好的，回去的时候注意安全。”</p>
+                <p>　　“几天后，完成工作的美香回到了家，父母早早地就在车站迎接自己了。回家的途中父母给自己打了好几个电话。父母明明也那么想念自己，却什么也没有说。”</p>
+                <p>　　“我回家了——”</p>
+                <p>　　“欢迎回家——”</p>
+                <p>　　不知道是不是错觉，冬天的风好像也不冷了。回到家里的一个星期，父母又会一边唠唠叨叨，一边准备丰盛的饭菜吧，这点从来没有变过啊。不过也有改变了的东西。到了再次离开家的时候，自己不会再那么烦恼了。因为，自己的内心深处，怀揣着大学时代以来的梦想，还有，那位结界的管理者，以及一直在背后支持着自己的父母。</p>
+                <br/>
+                <p>（完）</p>
+                <br/>
+
+                <h2 id="关于">
+                    <a href="关于" class="headerlink" title="关于"></a>关于</h2>
+                <p><strong>振翅之时</strong></p>
+                <p><strong>羽ばたく時</strong></p>
+                <br/>
+                <p><strong>总策划：</strong></p>
+                <p>木村　冴</p>
+                <br/>
+                <p><strong>演员表：</strong></p>
+                <p>伊倉　みか　　　　　初明　羽衣　　　　みかの両親</p>
+                <br/>
+                <p><strong>素材整理：</strong></p>
+                <p>木村　冴</p>
+                <br/>
+                <br/>
+                <p>感谢阅读！</p>
+                <p>読んでくれてありがとう！</p>
+                <br/>
 
 
-        </div>
-        <div class="post-copyright">
-          <div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span
-              class="post-copyright-info">zy</a></span></div>
-          <div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span
-              class="post-copyright-info"><a
+            </div>
+            <div class="post-copyright">
+                <div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info">zy</a></span></div>
+                <div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a
                 href="https://lonely-programmer.github.io/kochi/story1.html">https://lonely-programmer.github.io/kochi/story1.html</a></span>
-          </div>
-          <div class="post-copyright__notice"><span class="post-copyright-meta">说明: </span><span
-              class="post-copyright-info">本博客的所有内容均已进入幻想。如果你也有着同样的幻想，说不定可以在梦中看到相似的世界……</span></div>
-        </div>
-        <div class="tag_share">
-          <div class="post-meta__tag-list"><a class="post-meta__tags"
-              href="https://lonely-programmer.github.io/tags.html#novel">故事</a></div>
-          
-        </div>
-        
-        <hr>
+                </div>
+                <div class="post-copyright__notice"><span class="post-copyright-meta">说明: </span><span class="post-copyright-info">本博客的所有内容均已进入幻想。如果你也有着同样的幻想，说不定可以在梦中看到相似的世界……</span></div>
+            </div>
+            <div class="tag_share">
+                <div class="post-meta__tag-list"><a class="post-meta__tags" href="https://lonely-programmer.github.io/tags.html#novel">故事</a></div>
+
+            </div>
+
+            <hr>
 
             <div class="vpage txt-center" style="display:none"><button type="button" class="vmore vbtn">加载更多...</button>
             </div>
-            <div class="vpower txt-right">Powered By <a href="https://valine.js.org/"
-                target="_blank">Valine</a><br>v1.4.14</div>
-          <script
-            src="dat1/Valine.js"></script>
-          <script>var GUEST_INFO = ['nick', 'mail', 'link'];
-            var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
-              return GUEST_INFO.indexOf(item) > -1
-            });
-            guest_info = guest_info.length == 0 ? GUEST_INFO : guest_info;
+            <div class="vpower txt-right">Powered By <a href="https://valine.js.org/" target="_blank">Valine</a><br>v1.4.14</div>
+            <script src="dat1/Valine.js"></script>
+            <script>
+                var GUEST_INFO = ['nick', 'mail', 'link'];
+                var guest_info = 'nick,mail,link'.split(',').filter(function(item) {
+                    return GUEST_INFO.indexOf(item) > -1
+                });
+                guest_info = guest_info.length == 0 ? GUEST_INFO : guest_info;
 
-            window.valine = new Valine({
-              el: '#vcomment',
-              appId: 'qKzKTqLS4IP0grV2Pq1waGQt-MdYXbMMI',
-              appKey: 'sYVhbspdU7W0iDOAMjPrtQ7c',
-              placeholder: '写个评论吧~',
-              avatar: 'mp',
-              meta: guest_info,
-              pageSize: '10',
-              lang: 'zh-CN',
-              recordIP: true,
-              serverURLs: '',
-              mathjax: false
-            });</script>
-        </div>
-      </article>
+                window.valine = new Valine({
+                    el: '#vcomment',
+                    appId: 'qKzKTqLS4IP0grV2Pq1waGQt-MdYXbMMI',
+                    appKey: 'sYVhbspdU7W0iDOAMjPrtQ7c',
+                    placeholder: '写个评论吧~',
+                    avatar: 'mp',
+                    meta: guest_info,
+                    pageSize: '10',
+                    lang: 'zh-CN',
+                    recordIP: true,
+                    serverURLs: '',
+                    mathjax: false
+                });
+            </script>
+            </div>
+        </article>
     </main>
     <footer id="footer" data-type="color">
-      <div id="footer-wrap">
-        <div class="copyright">©2020 By zy</div>
-        <div class="framework-info"><span>驱动 </span><a href="https://hexo.io/" target="_blank"
-            rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a
-            href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank"
-            rel="noopener"><span>Butterfly</span></a></div>
-      </div>
+        <div id="footer-wrap">
+            <div class="copyright">©2020 By zy</div>
+            <div class="framework-info"><span>驱动 </span><a href="https://hexo.io/" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div>
+        </div>
     </footer>
-  </div>
-  <section class="rightside" id="rightside" style="opacity: 1; transform: translateX(-38px);">
-    <div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus"
-        id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a
-        class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换"
-        target="_self">繁</a></div>
-    <div id="rightside-config-show">
-      <div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment"
-        href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments"> </i></a><i
-        class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up"
-        id="go-up" title="回到顶部" aria-hidden="true"></i>
     </div>
-  </section>
-  <div class="search-dialog" id="local-search">
-    <div class="search-dialog__title" id="local-search-title">本地搜索</div>
-    <div id="local-input-panel">
-      <div id="local-search-input">
-        <div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div>
-      </div>
+    <section class="rightside" id="rightside" style="opacity: 1; transform: translateX(-38px);">
+        <div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();"
+                title="简繁转换" target="_self">繁</a></div>
+        <div id="rightside-config-show">
+            <div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments"> </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i>
+            <i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i>
+        </div>
+    </section>
+    <div class="search-dialog" id="local-search">
+        <div class="search-dialog__title" id="local-search-title">本地搜索</div>
+        <div id="local-input-panel">
+            <div id="local-search-input">
+                <div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div>
+            </div>
+        </div>
+        <hr>
+        <div id="local-search-results">
+            <div id="local-hits"></div>
+            <div id="local-stats">
+                <div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+                    <span>提供支持</span></div>
+            </div>
+        </div><span class="search-close-button"><i class="fa fa-times"></i></span>
     </div>
-    <hr>
-    <div id="local-search-results">
-      <div id="local-hits"></div>
-      <div id="local-stats">
-        <div class="local-search-stats__hr" id="hr"><span>由</span> <a
-            href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener"
-            style="color:#49B1F5;">hexo-generator-search</a>
-          <span>提供支持</span></div>
-      </div>
-    </div><span class="search-close-button"><i class="fa fa-times"></i></span>
-  </div>
-  <div class="search-mask"></div>
-  <script
-    src="dat1/jquery_002.js"></script>
-  <script
-    src="dat1/utils.js"></script>
-  <script
-    src="dat1/main.js"></script>
-  <script
-    src="dat1/tw_cn.js"></script>
-  <script
-    src="dat1/jquery.js"></script>
-  <script defer="defer" id="ribbon"
-    src="dat1/canvas-ribbon.js"
-    size="150" alpha="0.6" zindex="-1" mobile="false" data-click="false"></script>
-  <script async=""
-    src="dat1/busuanzi.js"></script>
-  <script
-    src="dat1/instantpage.js"
-    type="module"></script>
-  <script
-    src="dat1/lazysizes.js"
-    async=""></script>
-  <script
-    src="dat1/local-search.js"></script>
-  <canvas width="1920" height="938"
-    style="opacity: 0.6; position: fixed; top: 0px; left: 0px; z-index: -1; width: 100%; height: 100%; pointer-events: none;"></canvas>
+    <div class="search-mask"></div>
+    <script src="dat1/jquery_002.js"></script>
+    <script src="dat1/utils.js"></script>
+    <script src="dat1/main.js"></script>
+    <script src="dat1/tw_cn.js"></script>
+    <script src="dat1/jquery.js"></script>
+    <script defer="defer" id="ribbon" src="dat1/canvas-ribbon.js" size="150" alpha="0.6" zindex="-1" mobile="false" data-click="false"></script>
+    <script async="" src="dat1/busuanzi.js"></script>
+    <script src="dat1/instantpage.js" type="module"></script>
+    <script src="dat1/lazysizes.js" async=""></script>
+    <script src="dat1/local-search.js"></script>
+    <canvas width="1920" height="938" style="opacity: 0.6; position: fixed; top: 0px; left: 0px; z-index: -1; width: 100%; height: 100%; pointer-events: none;"></canvas>
 </body>
 
 </html>

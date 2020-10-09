@@ -147,7 +147,10 @@
             <div id="article-container">
                 <h1>未找到此页面！</h1>
                 <p><a href="https://lonely-programmer.github.io/kochi/index.html">点击此处返回主页</a></p>
-
+                <p>——————休息一下，看看图吧~——————</p>
+                <p><a href="javascript:get_rand_img()">换一张</a></p>
+                <img id="randimg" src=""/>
+                <img id="t" src="" height="768"/>
             </div>
             <div class="post-copyright">
                 <div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info">zy</a></span></div>
@@ -162,34 +165,7 @@
                 </div>
 
             </div>
-
             <hr>
-
-            <div class="vpage txt-center" style="display:none"><button type="button" class="vmore vbtn">加载更多...</button>
-            </div>
-            <div class="vpower txt-right">Powered By <a href="https://valine.js.org/" target="_blank">Valine</a><br>v1.4.14</div>
-            <script src="dat1/Valine.js"></script>
-            <script>
-                var GUEST_INFO = ['nick', 'mail', 'link'];
-                var guest_info = 'nick,mail,link'.split(',').filter(function(item) {
-                    return GUEST_INFO.indexOf(item) > -1
-                });
-                guest_info = guest_info.length == 0 ? GUEST_INFO : guest_info;
-
-                window.valine = new Valine({
-                    el: '#vcomment',
-                    appId: 'qKzKTqLS4IP0grV2Pq1waGQt-MdYXbMMI',
-                    appKey: 'sYVhbspdU7W0iDOAMjPrtQ7c',
-                    placeholder: '写个评论吧~',
-                    avatar: 'mp',
-                    meta: guest_info,
-                    pageSize: '10',
-                    lang: 'zh-CN',
-                    recordIP: true,
-                    serverURLs: '',
-                    mathjax: false
-                });
-            </script>
             </div>
         </article>
     </main>
@@ -225,6 +201,8 @@
         </div><span class="search-close-button"><i class="fa fa-times"></i></span>
     </div>
     <div class="search-mask"></div>
+    <script src="dat1/random.js"></script>
+    <script type="text/javascript"> window.onload = function(){ get_rand_img(); } </script>
     <script src="dat1/jquery_002.js"></script>
     <script src="dat1/utils.js"></script>
     <script src="dat1/main.js"></script>

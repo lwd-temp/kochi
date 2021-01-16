@@ -1,5 +1,5 @@
 function get_rand_img() {
-    var arr = ["037c5e50bb0ccbccbe101df1464b02fccb230c3e",
+    var arr = ["df4b972b0b66cc284cf48b4289f18213713e62c6.png",
         "26672905d1805939f987180ce04eb43c38df2040",
         "1b9755c872da25ba09d01095bc25cb5bf280b4bd",
         "ad81e75b395f89c2d4e2cd7eceb8b67ec539b891",
